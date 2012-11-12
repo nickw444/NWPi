@@ -1,0 +1,1033 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"call",
+				"caller	Default"
+			],
+			[
+				"butto",
+				"button3	Default"
+			],
+			[
+				"back",
+				"background	Default"
+			],
+			[
+				"sub",
+				"subView	Default"
+			],
+			[
+				"MOUSE",
+				"MOUSEBUTTONUP	Default"
+			],
+			[
+				"pyg",
+				"pyGame	Default"
+			],
+			[
+				"mouse",
+				"mouseButtons	Default"
+			],
+			[
+				"mous",
+				"mouseButtons	Default"
+			],
+			[
+				"glob",
+				"globals()	globals fn"
+			],
+			[
+				"view",
+				"viewController	Default"
+			],
+			[
+				"viewC",
+				"viewController	Default"
+			],
+			[
+				"rec",
+				"rect	Default"
+			],
+			[
+				"const",
+				"constants	Default"
+			],
+			[
+				"fanc",
+				"fancyFont	Default"
+			],
+			[
+				"cons",
+				"constants	Default"
+			],
+			[
+				"custom",
+				"customInitial	Default"
+			],
+			[
+				"loca",
+				"localtime	Default"
+			],
+			[
+				"out",
+				"output	Default"
+			],
+			[
+				"suB",
+				"subView	Default"
+			],
+			[
+				"cent",
+				"centerx	Default"
+			],
+			[
+				"app",
+				"append()	Mutable"
+			],
+			[
+				"remo",
+				"remove()	Mutable"
+			],
+			[
+				"subV",
+				"subViews	Default"
+			],
+			[
+				"subv",
+				"subViews	Default"
+			],
+			[
+				"navi",
+				"navigationViewController	Default"
+			],
+			[
+				"mana",
+				"manageEvent	Default"
+			],
+			[
+				"Mou",
+				"MOUSEBUTTONUP	Default"
+			],
+			[
+				"obj",
+				"objCall	Default"
+			],
+			[
+				"inl",
+				"inlineFunction	Default"
+			],
+			[
+				"updat",
+				"updateView	Default"
+			],
+			[
+				"text1",
+				"text1pos	Default"
+			],
+			[
+				"text",
+				"textpos	Default"
+			],
+			[
+				"cente",
+				"centery	Default"
+			],
+			[
+				"Fanc",
+				"Fancybutton_pressed"
+			],
+			[
+				"ho",
+				"hover	Default"
+			],
+			[
+				"clic",
+				"clickableObjectsList	Default"
+			],
+			[
+				"ca",
+				"canvas	Default"
+			],
+			[
+				"center",
+				"centerx	Default"
+			],
+			[
+				"add",
+				"addSubView	Default"
+			],
+			[
+				"upda",
+				"updateView	Default"
+			],
+			[
+				"liste",
+				"listeningSubViews	Default"
+			],
+			[
+				"lis",
+				"listeningSubViews	Default"
+			],
+			[
+				"su",
+				"subViews"
+			],
+			[
+				"Fancyb",
+				"Fancybutton_pressed"
+			],
+			[
+				"Fa",
+				"Fancybutton_pressed"
+			],
+			[
+				"click",
+				"clickableObjectsList"
+			],
+			[
+				"con",
+				"convert"
+			],
+			[
+				"Fancy",
+				"fancyButton"
+			],
+			[
+				"post",
+				"postFooter"
+			],
+			[
+				"ema",
+				"emailDomain"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"chec",
+				"checkSpam"
+			],
+			[
+				"blocke",
+				"blockedTerms"
+			],
+			[
+				"block",
+				"blockedDomains"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"serv",
+				"server_socket"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"preg_ma",
+				"preg_match_all"
+			],
+			[
+				"lev",
+				"level"
+			],
+			[
+				"bas",
+				"basename"
+			],
+			[
+				"file",
+				"fileSize"
+			],
+			[
+				"lel",
+				"levelPad"
+			],
+			[
+				"leve",
+				"levelPad"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"Movie",
+				"MoviesFormats"
+			],
+			[
+				"mov",
+				"MovieFolder"
+			],
+			[
+				"music",
+				"MusicFormats"
+			],
+			[
+				"date_def",
+				"date_default_timezone_set"
+			],
+			[
+				"ncurses_c",
+				"ncurses_clear"
+			],
+			[
+				"speci",
+				"specialLi"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"this",
+				"thisListName"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"item",
+				"itemID"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"list",
+				"listName"
+			],
+			[
+				"cards",
+				"cardsOnDeck"
+			],
+			[
+				"upp",
+				"uppCardidx"
+			],
+			[
+				"Car",
+				"cardIDX"
+			],
+			[
+				"leg",
+				"legalMoves"
+			],
+			[
+				"card",
+				"cardIDX"
+			],
+			[
+				"la",
+				"lastCard"
+			],
+			[
+				"give",
+				"give"
+			],
+			[
+				"modif",
+				"modifier"
+			],
+			[
+				"car",
+				"cardsOnDeck"
+			],
+			[
+				"playe",
+				"playerName"
+			],
+			[
+				"player",
+				"playercount"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"use",
+				"userid"
+			],
+			[
+				"insert_id",
+				"mysql_insert_id"
+			],
+			[
+				"ran",
+				"randomString"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"rand",
+				"randomString"
+			],
+			[
+				"window",
+				"windowwid"
+			],
+			[
+				"twee",
+				"tweet"
+			],
+			[
+				"mat",
+				"matches"
+			],
+			[
+				"tw",
+				"tweet"
+			],
+			[
+				"rh",
+				"rhyme"
+			],
+			[
+				"per",
+				"persons"
+			],
+			[
+				"fruit",
+				"fruitRow"
+			],
+			[
+				"frui",
+				"fruitRow"
+			],
+			[
+				"st",
+				"stion"
+			],
+			[
+				"row",
+				"rowsum"
+			],
+			[
+				"wp",
+				"wpBar"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			],
+			[
+				"attachment",
+				"attachmentTitle"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ani",
+				"aniLogo"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"read",
+				"ready	document ready - jQuery"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"_la",
+				"_languageWidth"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"compa",
+				"companyFullName"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
+				"csv",
+				"csvRows"
+			],
+			[
+				"td",
+				"tdata"
+			],
+			[
+				"tus",
+				"tusername"
+			],
+			[
+				"review",
+				"reviewArr"
+			],
+			[
+				"revie",
+				"reviewArr"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"sala",
+				"salaryHistory"
+			],
+			[
+				"titl",
+				"titles"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"viewC",
+				"Snippet: newViewController"
+			],
+			[
+				"Snippet: ",
+				"Snippet: New Class"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"go to ",
+				"Goto Symbol : List all symbols"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"link ",
+				"Snippet: link - stylesheet"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"link r",
+				"Snippet: link - prefetch"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javca",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"snippe",
+				"Snippet: html"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package con",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/TestGame.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/constants.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/fancyButton.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/Images.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/navigationController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/noticer.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/textObject.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/UIButton.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/viewController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/firstAlternativeView.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/homeViewController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/secondAlternativeView.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/projectg.sublime-workspace",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/client.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/server.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/TestGame.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/firstAlternativeView.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/NWPi/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/secondAlternativeView.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/homeViewController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/NWPi/textObject.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/UI/secondaryViewController",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/NWPi/customViews/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/NWPi/customViews/homeViewController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/fancyButton.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/constants.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/Images.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/navigationController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/viewController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/noticer.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/NWPi/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/__init__.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Source/__init__.py",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/User/constants.sublime-snippet",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/twisty2.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/noticer.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/navigationController.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/textObject.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/fancyButton.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/constants.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/projectg.sublime-project",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/view.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/viewcontroller.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame/viewController.py",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/projectg.sublime-workspace",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/second.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/modules/piGame/fancyButton.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/piGame.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/MainGame.py",
+		"/sites/80/tumblr.html",
+		"/sites/80/spam.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#1/addcomment.php",
+		"/Users/nickw/Desktop/extension/jquery.js",
+		"/Users/nickw/Desktop/extension/background.js",
+		"/Users/nickw/Desktop/extension/manifest.json",
+		"/Users/nickw/Desktop/extension/background.html",
+		"/Users/nickw/Desktop/extension/content.js",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#0/login.php",
+		"/Users/nickw/Desktop/Test Script/moveCompleted.php",
+		"/Users/nickw/Desktop/Test Script/moveCompleted2.php",
+		"/Users/nickw/Desktop/Test Script/movecompleted.py",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#16/versions.plist",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#15/versions1.03.plist",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#14/versions1.02.plist",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#13/versions.plist",
+		"/Users/nickw/Desktop/test.html",
+		"/Users/nickw/Desktop/listyNotes.txt",
+		"/Users/nickw/Downloads/nicklockwood-iVersion-978405b/RELEASE NOTES.md",
+		"/Users/nickw/Downloads/nicklockwood-iVersion-978405b/README.md",
+		"/sites/80/listy/server/config.php",
+		"/sites/80/listy/functions.js",
+		"/sites/80/listy/style.css",
+		"/sites/80/listy/index.php",
+		"/sites/80/listy/short.php",
+		"/sites/80/listy/list.php",
+		"/sites/80/listy/404.php",
+		"/sites/80/listy/server/getListTitle.php",
+		"/sites/80/listy/server/toggleCheckWeb.php",
+		"/sites/80/listy/server/<?php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#5/short.php",
+		"/sites/80/listy/server/getItemsWeb.php",
+		"/sites/80/listy/server/newItemWeb.php",
+		"/sites/80/listy/web/style.css",
+		"/sites/80/listy/web/index.php",
+		"/sites/80/listy/web/functions.js",
+		"/sites/80/listy/server/newListWeb.php",
+		"/sites/80/listy/web/jquery.js",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#4/config.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#1/newItem.php",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Assignment/Base/program.py",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#0/newItem.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#17/short.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#16/.htaccess",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#15/.htaccess",
+		"/sites/80/listy/l/.htaccess",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#14/toggleCheck.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#13/requests.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#12/registrations.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#11/public.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#10/newItem.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#9/login.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#8/getLists.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#7/getItems.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#6/deletelist.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#5/deleteItems.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#3/addList.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#2/newItem.php",
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#1/getItems.php",
+		"/sites/80/listy/l/index.php",
+		"/sites/80/listy/.htaccess",
+		"/sites/80/listy/l/RewriteEngine On",
+		"/sites/80/listy/login.php",
+		"/sites/80/listy/getLists.php",
+		"/sites/80/listy/newList.php",
+		"/sites/80/listy/config.php",
+		"/sites/80/listy/newItem.php",
+		"/sites/80/listy/getItems.php",
+		"/sites/80/listy/urls.html",
+		"/sites/80/listy/addList.php",
+		"/sites/80/listy/deleteItems.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/sites/82",
+			"/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line too long",
+			"Images",
+			"constants()",
+			"noticer.noti",
+			"Updating Navi",
+			"line too lon",
+			"fancyFont",
+			"fancyButton()",
+			"fancy",
+			"print",
+			"[Notice]",
+			"print",
+			"callback req",
+			"cocks",
+			"line too",
+			"iVersion Update",
+			"line too",
+			"1",
+			"scroll",
+			".wp-caption p",
+			"._menuCurrent",
+			"print_r",
+			"ech",
+			"unfocusnbonus",
+			"unfocus",
+			"thisJobPACID",
+			"tab",
+			"tabheight",
+			"tab",
+			"//print_r",
+			"print_r",
+			"getnbonus",
+			"nbonus",
+			"iA",
+			"titledropdown",
+			"savechanges",
+			"autocomplete",
+			"dropdown",
+			"form2arr",
+			"sendform",
+			"save",
+			"unfocussala",
+			"unfocusr",
+			"unfocusn",
+			"unfocus",
+			"delete",
+			"unfocus",
+			"loadingspinner",
+			"console.log",
+			"new record",
+			"rating",
+			"performance",
+			"bind('blur",
+			"bind",
+			"Loadsing",
+			"firstname",
+			"delete",
+			"<input type=\"text\" ",
+			"form",
+			"saveChanges",
+			"save",
+			"sendform",
+			"saveChan",
+			"console.log",
+			"console",
+			"getTitles",
+			"delete",
+			"newlistbutton",
+			"deletequalification",
+			"unfocusqualifi",
+			"qualif",
+			"quialif",
+			"superfish",
+			"console.log(",
+			"console.log",
+			"deselectUIRow",
+			"});\n",
+			"null",
+			"to Printer",
+			"title",
+			"searchlist",
+			"lastmodifiedtext",
+			"unfocusratingsac",
+			"unfocusratings",
+			"loadsingle",
+			"callback()",
+			"callback*(",
+			"callback()",
+			"list",
+			"loadsingle",
+			"savechan",
+			"loadsingle",
+			"sendform()",
+			"savechanges()",
+			"save",
+			"loadsingle",
+			">",
+			"buttons()",
+			"qualificationrows",
+			"savechange",
+			"loadsingle",
+			"loadsingle()",
+			"Loadsingle()",
+			"getrecords",
+			"searchlist()",
+			"searchlist",
+			"right_overlay",
+			"indexes",
+			"virtu",
+			"Name",
+			"Zip",
+			"$_SERVER['DOCUMENT_ROOT'] . '/",
+			"theader",
+			".zip",
+			"zip",
+			".zip",
+			"last",
+			"#info",
+			"ziplink",
+			"table",
+			"Root",
+			"info",
+			"Encode Explorer",
+			"header",
+			"two",
+			"<!",
+			"toolbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 170.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"update",
+				"mod/update.php"
+			],
+			[
+				"makee",
+				"excel/makeExcel.php"
+			],
+			[
+				"appl",
+				"application.php"
+			],
+			[
+				"appli",
+				"application.php"
+			],
+			[
+				"login",
+				"style/login.css"
+			],
+			[
+				"login.cs",
+				"style/login.css"
+			],
+			[
+				"newtitle",
+				"mod/newtitle.php"
+			],
+			[
+				"distrib",
+				"mod/distrib.old.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/XAMPP/xamppfiles/htdocs/built/built.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
