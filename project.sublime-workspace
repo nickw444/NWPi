@@ -636,7 +636,10 @@
 	},
 	"file_history":
 	[
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/data/Savoye.ttf",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/projectg.sublime-workspace",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/TestGame.py",
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/projectg.sublime-project",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/__init__.py",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/constants.py",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/NWPi/fancyButton.py",
@@ -650,7 +653,6 @@
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/firstAlternativeView.py",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/homeViewController.py",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/UI/secondAlternativeView.py",
-		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/projectg.sublime-workspace",
 		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/nickw/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/client.py",
@@ -761,9 +763,7 @@
 		"/sites/80/listy/config.php",
 		"/sites/80/listy/newItem.php",
 		"/sites/80/listy/getItems.php",
-		"/sites/80/listy/urls.html",
-		"/sites/80/listy/addList.php",
-		"/sites/80/listy/deleteItems.php"
+		"/sites/80/listy/urls.html"
 	],
 	"find":
 	{
