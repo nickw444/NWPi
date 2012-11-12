@@ -34,3 +34,4 @@ class UIView():
             self.image.blit(subView.image, subView.rect)               # Blit the subView to the canvas
         # self.screen.blit(self.canvas, (0, 0))
         self.parent.updateView()                     # Tell the navigationcontroller that it needs to be updated (It'll just blit this views canvas to itself)
+

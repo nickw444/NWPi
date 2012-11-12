@@ -34,3 +34,4 @@ class mainGameViewController(NWPi.viewController):
         view.addSubView(subb)
 
         subb.updateView()
+        
