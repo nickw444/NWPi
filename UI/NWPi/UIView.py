@@ -13,36 +13,23 @@ from noticer import *
 from constants import *
 
 class UIView():
-    def __init__(self, dimensions, parent, background=(255,255,255), borders=(0, 0, 0, 0), borderColor=(0, 0, 0)):
+    def __init__(self, dimensions, parent, background=(255,255,255)):
         self.image = pygame.Surface(dimensions)
         self.image.fill(background)
         self.rect = pygame.Rect((0, 0), dimensions)
         self.subViews = []
         self.parent = parent
         self.backgroundcolor = background
-        self.borderColor = borderColor
-        self.borders = borders
         # parent.updateView()
 
     def addSubView(self, subView):
         print "ADDING SUBVIEW"
         self.subViews.append(subView)
-        self.updateView()
-
-    def addBorders(self, borders = False):
-        if borders != False:
-            self.borders = borders
-        self.image.fill(self.borderColor, ((0, 0),(self.rect.width, self.borders[0])))
-        self.image.fill(self.borderColor, ((self.rect.width - self.borders[1], 0),(self.borders[1], self.rect.height)))
-        self.image.fill(self.borderColor, ((0, self.rect.height - self.borders[2]),(self.rect.width, self.borders[2])))
-        self.image.fill(self.borderColor, ((0, 0),(self.borders[3], self.rect.height)))
-        # self.image.fill(self.borderColor, ((0, self.rect.height - self.borders[2]),(self.rect.width, self.borders[2])))
 
     def updateView(self):
         print self.subViews
         # Blitting method for viewController.
         self.image.fill(self.backgroundcolor)                     # Re-Fill the canvas, wipe EVERYTHING
-        self.addBorders()
         for subView in self.subViews:                              # Loop through each SubView
             self.image.blit(subView.image, subView.rect)               # Blit the subView to the canvas
         # self.screen.blit(self.canvas, (0, 0))

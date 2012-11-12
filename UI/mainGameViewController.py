@@ -22,15 +22,15 @@ class mainGameViewController(NWPi.viewController):
         button2.setCustomCallback(goHome)
         self.addSubView(button2, True)
 
-        view = NWPi.UIView((220,self.canvas.get_rect().height), self, (210,210,210))
-        view.rect.x = 0
-        view.rect.y = 0
+
+        view = NWPi.UIView((300,30), self, (0,255,0))
+        view.rect.x = 10
+        view.rect.y = 70
         self.addSubView(view)
 
         subb = NWPi.UIView((30, 30), view, (255,0,0))
         subb.rect.x = 5
         subb.rect.y = 5
         view.addSubView(subb)
-        subb.addBorders((1,1,1,1))
+
         subb.updateView()
-        # subb.updateView()
