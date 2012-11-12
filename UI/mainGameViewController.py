@@ -20,18 +20,21 @@ class mainGameViewController(NWPi.viewController):
         button2.rect.y = 10
         button2.setText("Home")
         button2.setCustomCallback(goHome)
-        self.addSubView(button2, True)
 
+        def dicks(self, event, caller):
+            print("CALLBABBABABABABAB")
 
-        view = NWPi.UIView((300,30), self, (0,255,0))
-        view.rect.x = 10
-        view.rect.y = 70
+        view = NWPi.UIView((220,self.canvas.get_rect().height), self, (210,210,210))
         self.addSubView(view)
 
+        view.addSubView(button2)
         subb = NWPi.UIView((30, 30), view, (255,0,0))
         subb.rect.x = 5
-        subb.rect.y = 5
+        subb.rect.y = 50
+        view.setCustomCallback(dicks)
+        subb.addBorders((1,1,1,1))
         view.addSubView(subb)
 
-        subb.updateView()
-        
+
+        # subb.updateView()
+

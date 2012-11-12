@@ -40,7 +40,7 @@ class viewController():
     def manageEvent(self, event):
         # Traversing down the events tree. We receieved an event from the parent NavigationViewController.
         # We need to now pass this even down the tree to the corresponding object that the mouse landed on or whatnot.
-        for subView in self.listeningSubViews:                                                      # Loop Through each SubView that is LISTENING for events.
+        for subView in self.subViews:                                                      # Loop Through each SubView that is LISTENING for events.
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
                 outside = False                                                                     # Some pre-variable for later reference
                 mouse = event.pos                                                                       # Get the mouse Position
@@ -51,9 +51,9 @@ class viewController():
                                 # noticer("Mouse within bounds", 0, subView)                                  # Mouse is within the bounds
                                 # It's easier to ask forgiveness than to ask permission.                    # Catching exceptions is key here, in case the subView doesn't have a callback method implemented
                                 try:
-                                    subView.runCallback(event, self, True)                                      # Method exists, and was used.
+                                    subView.manageEvent(event, self, True)                                      # Method exists, and was used.
                                 except (AttributeError, TypeError):
-                                    noticer("Method runCallback() does not exist", 1, subView)                  # Method does not exist.  What now?
+                                    noticer("Method manageEvent() does not exist when inside", 1, subView)                  # Method does not exist.  What now?
                             else:
                                 outside = True                                                       # Move back down the tree, setting the outside variable to True if the mouse is outside.
                         else:
@@ -65,9 +65,9 @@ class viewController():
 
                 if outside == True:                                                                 # Mouse is outside, Try send the callback method again, except with the parameter inside = False (This fixes mousebuttonups)
                     try:
-                        subView.runCallback(event, self, False)
+                        subView.manageEvent(event, self, False)
                     except (AttributeError, TypeError):
-                        noticer("Method runCallback() does not exist", 1, subView)
+                        noticer("Method manageEvent() does not exist when outside", 1, subView)
 
     def addSubView(self, object, callback=False):
         # This method simply allows subViews to be added to the superView.

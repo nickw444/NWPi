@@ -71,7 +71,7 @@ class UIButton(pygame.sprite.Sprite):
         self.image.blit(text2, text2pos)
         self.image.blit(text1, text1pos)
 
-    def runCallback(self, event, caller, withinBounds=True):
+    def manageEvent(self, event, caller, withinBounds=True):
         # Manager method for the callback.
         # Will handle mouse clicks as if they are mousedowns for button effects.
         # It will also send the mouseclicks to the user preset callback (if set)
