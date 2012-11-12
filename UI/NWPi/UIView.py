@@ -41,15 +41,14 @@ class UIView():
 
     def setCustomCallback(self, callback):
         # Allows setting of a callback on a button.
-        print "sdfkdffj"
-        print ("Setting callback")
         self.actions = callback
 
     def userCallback(self, event, caller):
         # Method to run the users custom callback. This will catch fatal exceptions (luckily)
-        print "COCKS"
+
+        # self.actions = showViewOne
         try:
-            self.actions(event, caller)
+            self.actions(self, event, caller)
             # Method exists, and was used.
         except (AttributeError, TypeError):
             # Method does not exist.  What now?
@@ -97,5 +96,5 @@ class UIView():
                     except (AttributeError, TypeError):
                         noticer("Method manageEvent(ddd) does not exist", 1, subView)
         if withinBounds:
-            self.userCallback(self, event, caller)
+            self.userCallback(event, caller)
 
