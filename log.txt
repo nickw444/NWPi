@@ -12104,3 +12104,522 @@
 [2012-11-12 23:03:24][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
 [2012-11-12 23:03:24][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
 [2012-11-12 23:03:24][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
+[2012-11-12 23:04:16][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
+[2012-11-12 23:04:16][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:04:16][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
+[2012-11-12 23:04:16][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
+[2012-11-12 23:04:16][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2148>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:04:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:05:01][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a0fd0>
+[2012-11-12 23:05:01][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a0fa8>
+[2012-11-12 23:05:01][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:05:01][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a0fd0>
+[2012-11-12 23:05:01][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a0fa8>
+[2012-11-12 23:05:01][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:05:01][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d580>
+[2012-11-12 23:05:02][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:02][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:02][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:04][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:04][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:06][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:10][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:13][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:05:13][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2170>
+[2012-11-12 23:05:13][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2120>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:11][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:12][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:43][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:43][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:43][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:06:44][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:44][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:46][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:46][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:57][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:58][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:58][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:58][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:58][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:06:58][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:06:58][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:58][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:06:58][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:58][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:59][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:59][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:06:59][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:07:03][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:50][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:08:51][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:08:51][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:52][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:08:52][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:08:52][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:52][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f6c0>
+[2012-11-12 23:08:53][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21c0>
+[2012-11-12 23:08:53][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:23][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:24][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20d0>
+[2012-11-12 23:09:24][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:09:24][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:24][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20d0>
+[2012-11-12 23:09:24][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:09:24][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:24][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:25][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:25][Warning][Thread 0]: Method manageEvent() does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2238>
+[2012-11-12 23:09:25][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:25][Warning][Thread 0]: Method manageEvent() does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2238>
+[2012-11-12 23:09:26][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:26][Warning][Thread 0]: Method manageEvent() does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2238>
+[2012-11-12 23:09:26][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:26][Warning][Thread 0]: Method manageEvent() does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2238>
+[2012-11-12 23:09:28][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:28][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:39][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:40][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20d0>
+[2012-11-12 23:09:40][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:09:40][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:40][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20d0>
+[2012-11-12 23:09:40][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a20a8>
+[2012-11-12 23:09:40][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:40][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d6c0>
+[2012-11-12 23:09:41][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:41][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:41][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:09:41][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a21e8>
+[2012-11-12 23:10:07][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:07][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:07][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a10f8>
+[2012-11-12 23:10:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a10d0>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a10f8>
+[2012-11-12 23:10:08][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a10d0>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:08][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x108f710>
+[2012-11-12 23:10:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a1210>
+[2012-11-12 23:10:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a1210>
+[2012-11-12 23:10:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a1210>
+[2012-11-12 23:10:09][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a1210>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:10:48][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:10:48][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:48][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:10:49][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:10:49][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:10:49][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:10:50][Error][Thread 0]: Method self.actions() ddd does not exist on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:53][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:54][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:11:54][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:11:54][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:54][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:11:54][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:11:54][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:54][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:11:55][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:36][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:36][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:36][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:36][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:37][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:37][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:37][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:37][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:12:47][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:12:47][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:47][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d670>
+[2012-11-12 23:12:48][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:48][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:48][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:48][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:12:50][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:05][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:13:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:13:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:06][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:13:06][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:13:07][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:13:07][Warning][Thread 0]: Method manageEvent() does not exist when inside on object: <UI.NWPi.UIView.UIView instance at 0x10a2198>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:28][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:29][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:13:29][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:13:29][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:29][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2080>
+[2012-11-12 23:13:29][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a2058>
+[2012-11-12 23:13:29][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:13:29][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x79d698>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:31][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:32][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a6fd0>
+[2012-11-12 23:15:32][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a8058>
+[2012-11-12 23:15:32][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:32][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a6fd0>
+[2012-11-12 23:15:32][Warning][Thread 0]: Method manageEvent() does not exist when outside on object: <UI.NWPi.textObject.textObject instance at 0x10a8058>
+[2012-11-12 23:15:32][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>
+[2012-11-12 23:15:32][Notice][Thread 0]: Updating Navigation Controller on object: <UI.NWPi.navigationController.navigationController instance at 0x799b48>

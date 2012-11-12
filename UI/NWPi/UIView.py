@@ -64,9 +64,16 @@ class UIView():
         # self.screen.blit(self.canvas, (0, 0))
         self.parent.updateView()                     # Tell the navigationcontroller that it needs to be updated (It'll just blit this views canvas to itself)
 
+    def subTest(self, event, caller, withinBounds):
+        self.actions(self, event, caller, withinBounds)
+
     def manageEvent(self, event, caller, withinBounds=True):
     # Traversing down the events tree. We receieved an event from the parent NavigationViewController.
     # We need to now pass this even down the tree to the corresponding object that the mouse landed on or whatnot.
+        if withinBounds:
+            # self.userCallback(event, caller)
+            # self.actions()
+            print ("COCKS")
         for subView in self.subViews:                                                       # Loop Through each SubView that is LISTENING for events.
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
                 outside = False                                                                     # Some pre-variable for later reference
@@ -78,7 +85,9 @@ class UIView():
                                 # noticer("Mouse within bounds", 0, subView)                                  # Mouse is within the bounds
                                 # It's easier to ask forgiveness than to ask permission.                    # Catching exceptions is key here, in case the subView doesn't have a callback method implemented
                                 try:
-                                    subView.manageEvent(event, self, True)                                      # Method exists, and was used.
+                                    print("Calling the subView")
+                                    subView.subTest(event, self, True)
+                                    # subView.manageEvent(event, self, True)                                      # Method exists, and was used.
                                 except (AttributeError, TypeError):
                                     noticer("Method manageEvent() does not exist", 1, subView)                  # Method does not exist.  What now?
                             else:
@@ -95,6 +104,4 @@ class UIView():
                         subView.manageEvent(event, self, False)
                     except (AttributeError, TypeError):
                         noticer("Method manageEvent(ddd) does not exist", 1, subView)
-        if withinBounds:
-            self.userCallback(event, caller)
 

@@ -31,7 +31,10 @@ class mainGameViewController(NWPi.viewController):
         subb = NWPi.UIView((30, 30), view, (255,0,0))
         subb.rect.x = 5
         subb.rect.y = 50
-        subb.setCustomCallback(showViewOne)
+        def myAction(self, event, caller, within):
+            print("Using my action")
+            print within
+        subb.actions = myAction
         subb.addBorders((1,1,1,1))
         view.addSubView(subb)
 
