@@ -72,8 +72,9 @@ class UIView():
     # Traversing down the events tree. We receieved an event from the parent NavigationViewController.
     # We need to now pass this even down the tree to the corresponding object that the mouse landed on or whatnot.
         if withinBounds:
-            # self.userCallback(event, caller)
+            self.userCallback(event, caller)
             # self.actions()
+            
             print ("COCKS on object" + str(self))
         for subView in self.subViews:                                                       # Loop Through each SubView that is LISTENING for events.
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
