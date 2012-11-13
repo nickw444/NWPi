@@ -34,6 +34,7 @@ class mainGameViewController(NWPi.viewController):
         def myAction(self, event, caller, within):
             print("Using my action")
             print within
+            caller.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
         subb.actions = myAction
         subb.addBorders((1,1,1,1))
         view.addSubView(subb)
