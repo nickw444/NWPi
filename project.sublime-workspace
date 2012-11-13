@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"sub",
+				"subView"
+			],
+			[
+				"within",
+				"withinBounds"
+			],
+			[
+				"is",
+				"isVisible"
+			],
+			[
+				"border",
+				"borders"
+			],
+			[
+				"borde",
+				"borders"
+			],
+			[
+				"bor",
+				"borderColor"
+			],
+			[
 				"call",
 				"caller	Default"
 			],
@@ -14,10 +38,6 @@
 			[
 				"back",
 				"background	Default"
-			],
-			[
-				"sub",
-				"subView	Default"
 			],
 			[
 				"MOUSE",
@@ -494,31 +514,59 @@
 			[
 				"tus",
 				"tusername"
-			],
-			[
-				"review",
-				"reviewArr"
-			],
-			[
-				"revie",
-				"reviewArr"
-			],
-			[
-				"da",
-				"date"
-			],
-			[
-				"sala",
-				"salaryHistory"
-			],
-			[
-				"titl",
-				"titles"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "UI/mainGameViewController.py",
+			"settings":
+			{
+				"buffer_size": 1366,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UI/NWPi/UIView.py",
+			"settings":
+			{
+				"buffer_size": 6230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UI/NWPi/UIButton.py",
+			"settings":
+			{
+				"buffer_size": 4508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UI/NWPi/viewController.py",
+			"settings":
+			{
+				"buffer_size": 6792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "UI/homeViewController.py",
+			"settings":
+			{
+				"buffer_size": 2921,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -636,6 +684,12 @@
 	},
 	"file_history":
 	[
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/mainGameViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/spriteFromRect.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/.gitignore",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/project.sublime-project",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/data/Savoye.ttf",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/projectg.sublime-workspace",
 		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Term 4 Assignment/Prac/TestGame.py",
@@ -757,13 +811,7 @@
 		"/sites/80/listy/l/index.php",
 		"/sites/80/listy/.htaccess",
 		"/sites/80/listy/l/RewriteEngine On",
-		"/sites/80/listy/login.php",
-		"/sites/80/listy/getLists.php",
-		"/sites/80/listy/newList.php",
-		"/sites/80/listy/config.php",
-		"/sites/80/listy/newItem.php",
-		"/sites/80/listy/getItems.php",
-		"/sites/80/listy/urls.html"
+		"/sites/80/listy/login.php"
 	],
 	"find":
 	{
@@ -783,6 +831,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"run",
 			"line too long",
 			"Images",
 			"constants()",
@@ -927,8 +976,175 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "UI/mainGameViewController.py",
+					"settings":
+					{
+						"buffer_size": 1366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "UI/NWPi/UIView.py",
+					"settings":
+					{
+						"buffer_size": 6230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3509,
+								3509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 696.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "UI/NWPi/UIButton.py",
+					"settings":
+					{
+						"buffer_size": 4508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2446,
+								2446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 607.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "UI/NWPi/viewController.py",
+					"settings":
+					{
+						"buffer_size": 6792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3961,
+								3965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "UI/homeViewController.py",
+					"settings":
+					{
+						"buffer_size": 2921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1485,
+								1485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 94.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
