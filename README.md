@@ -1,5 +1,4 @@
 NWPi
 ====
 
-A simple pygame management library.
-1234
+Dylan is Amazing!
