@@ -65,6 +65,7 @@ class UIView():
         self.parent.updateView()                     # Tell the navigationcontroller that it needs to be updated (It'll just blit this views canvas to itself)
 
     def subTest(self, event, caller, withinBounds):
+        # print ("COCKS on sub-object" + str(self))
         self.actions(self, event, caller, withinBounds)
 
     def manageEvent(self, event, caller, withinBounds=True):
@@ -73,7 +74,7 @@ class UIView():
         if withinBounds:
             # self.userCallback(event, caller)
             # self.actions()
-            print ("COCKS")
+            print ("COCKS on object" + str(self))
         for subView in self.subViews:                                                       # Loop Through each SubView that is LISTENING for events.
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
                 outside = False                                                                     # Some pre-variable for later reference
