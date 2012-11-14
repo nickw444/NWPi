@@ -34,7 +34,7 @@ class viewController():
 
     def setBackgroundColor(self, colors):
         # Self explanatory. Set the background color. boom headshot.
-        self.backgroundcolour = colors
+        self.backgroundcolor = colors
         self.updateView()
 
     def manageEvent(self, event):
