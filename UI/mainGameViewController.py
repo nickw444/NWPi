@@ -10,6 +10,21 @@ import pygame
 import NWPi
 
 class mainGameViewController(NWPi.viewController):
+    def checkThreeInARow(self):
+        i = 0
+        while i <  len(self.squares):
+            i2 = 0
+            while i2 < len(self.squares[i]):
+                if self.squares[i][i2].taken:
+                    # We found one that is taken... what could we do with it...
+                    if self.squares[i][i2 + 1].taken and self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy:
+                        # the one to the right is also taken
+                        if self.squares[i][i2 + 2].taken and self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy:
+                            # there are three in a row.
+                            print ("WE HAVE A WINNER")
+                i2 +=1
+            i += 1
+
     def generateGameBoard(self, gameView):
         rows = 6
         padd = 1
@@ -25,7 +40,7 @@ class mainGameViewController(NWPi.viewController):
         i = 0
         c = 1
         i2 = 0
-        squares = {}
+        self.squares = {}
         coords = [0,0]
 
         def customCallback(self, event, caller, within):
@@ -37,25 +52,28 @@ class mainGameViewController(NWPi.viewController):
                             subImageforsquare = NWPi.UIView((0,0), self, (0,0,0))
                             subImageforsquare.setBackgroundImage('cross.png')
                             self.parent.parent.turn = "PLAYER2"
+                            self.occupiedBy = "PLAYER1"
                         else:
                             subImageforsquare = NWPi.UIView((0,0), self, (0,0,0))
                             subImageforsquare.setBackgroundImage('circle.png')
                             self.parent.parent.turn = "PLAYER1"
+                            self.occupiedBy = "PLAYER2"
                         subImageforsquare.rect.centerx = caller.colWd / 2
                         subImageforsquare.rect.centery = caller.rowHt / 2
 
                         self.addSubView(subImageforsquare)
                         caller.updateView()
                         print("Clicked in square: " + str(self.position[0]) + ", " + str(self.position[1]))
+                        self.parent.parent.checkThreeInARow()
         while i < rows:
-            squares[i] = {}
+            self.squares[i] = {}
             while i2 < cols:
-                squares[i][i2] = NWPi.UIView((colwid, colheight), gameView, (236, 236, 236))
-                squares[i][i2].rect.x, squares[i][i2].rect.y = coords
-                squares[i][i2].setCustomCallback(customCallback)
-                squares[i][i2].taken = False
-                gameView.addSubView(squares[i][i2])
-                squares[i][i2].position = [i2, i]
+                self.squares[i][i2] = NWPi.UIView((colwid, colheight), gameView, (236, 236, 236))
+                self.squares[i][i2].rect.x, self.squares[i][i2].rect.y = coords
+                self.squares[i][i2].setCustomCallback(customCallback)
+                self.squares[i][i2].taken = False
+                gameView.addSubView(self.squares[i][i2])
+                self.squares[i][i2].position = [i2, i]
                 c += 1
                 i2 += 1
                 coords[0] += colwid + padd
