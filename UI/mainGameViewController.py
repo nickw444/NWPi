@@ -11,6 +11,8 @@ import NWPi
 
 class mainGameViewController(NWPi.viewController):
     def customInitial(self):
+        global turn
+        turn = "PLAYER1"
         self.setBackgroundColor((150,150,150))
         # def showViewOne(self, event, caller):
         #     if event.type == pygame.MOUSEBUTTONUP:
@@ -41,12 +43,13 @@ class mainGameViewController(NWPi.viewController):
         # backButton = NWPi.UIView((60,60), self, (255,0,0), (5,5,5,5))
         # backButton.rect.x = 50
         # backButton.rect.y = 50
-        backButton = NWPi.UIButton((70,40), leftColView)
+        backButton = NWPi.UIButton((70,30), leftColView)
         backButton.rect.x = 10
         backButton.rect.y = 10
         backButton.setText("Home")
         backButton.actions = goHome
         leftColView.addSubView(backButton)
+
 
 
         self.addSubView(leftColView)
@@ -60,23 +63,44 @@ class mainGameViewController(NWPi.viewController):
         colwid = viewWid/cols
         colheight = viewHeight/rows
 
+        gameView.colWd = colwid
+        gameView.rowHt = colheight
         i = 0
         c = 1
         i2 = 0
         squares = {}
         coords = [0,0]
         def customCallback(self, event, caller, within):
-            if within:
-                # print self.rect
-                print("Clicked in square: " + str(self.position[0]) + ", " + str(self.position[1]))
+            if event.type == pygame.MOUSEBUTTONUP:
+                if self.taken == False:
+                    global turn
+                    if within:
+                        self.taken = True
+                        if turn == "PLAYER1":
+                            subImageforsquare = NWPi.UIView((0,0), self, (0,0,0))
+                            subImageforsquare.setBackgroundImage('cross.png')
+                            turn = "PLAYER2"
+                        else:
+                            subImageforsquare = NWPi.UIView((0,0), self, (0,0,0))
+                            subImageforsquare.setBackgroundImage('circle.png')
+                            turn = "PLAYER1"
+                        subImageforsquare.rect.centerx = caller.colWd / 2
+                        subImageforsquare.rect.centery = caller.rowHt / 2
+                        # print self.rect
+                        
+                        self.addSubView(subImageforsquare)
+                        caller.updateView()
+                        print("Clicked in square: " + str(self.position[0]) + ", " + str(self.position[1]))
             # print("DICKS")
         while i < rows:
+            squares[i] = {}
             while i2 < cols:
-                squares[c] = NWPi.UIView((colwid, colheight), self, (236, 236, 236))
-                squares[c].rect.x, squares[c].rect.y = coords
-                squares[c].setCustomCallback(customCallback)
-                gameView.addSubView(squares[c])
-                squares[c].position = [i2, i]
+                squares[i][i2] = NWPi.UIView((colwid, colheight), self, (236, 236, 236))
+                squares[i][i2].rect.x, squares[i][i2].rect.y = coords
+                squares[i][i2].setCustomCallback(customCallback)
+                squares[i][i2].taken = False
+                gameView.addSubView(squares[i][i2])
+                squares[i][i2].position = [i2, i]
                 c += 1
                 i2 += 1
                 coords[0] += colwid + padd
@@ -86,4 +110,7 @@ class mainGameViewController(NWPi.viewController):
             coords[1] += colheight + padd
         self.updateView()
         print squares
+
+
+
 

@@ -11,7 +11,7 @@
 import pygame
 from noticer import *
 from constants import *
-
+import Images
 class UIView():
     def __init__(self, dimensions, parent, background=(255,255,255), borders=(0, 0, 0, 0), borderColor=(0, 0, 0)):
         self.image = pygame.Surface(dimensions)
@@ -47,6 +47,9 @@ class UIView():
     def setCustomCallback(self, callback):
         # Allows setting of a callback on a button.
         self.actions = callback
+
+    def setBackgroundImage(self, image):
+        self.image, self.rect = Images.load_image(image)
 
     def userCallback(self, event, caller):
         # Method to run the users custom callback. This will catch fatal exceptions (luckily)

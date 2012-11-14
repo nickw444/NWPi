@@ -17,12 +17,16 @@ from UIView import *
 class UIButton(UIView):
     def __init__(self, dimensions, parent):
         print("DICKS")
+        cont = constants() 
         UIView.__init__(self, dimensions, parent)
         self.userText = ""
         self.state = "up"
         self.backgroundcolor = (96, 117, 146)
         # self.backgroundcolor = (200, 117, 96)
         self.paint()
+        self.font = cont.defaultButtonFont              # set the font, default is the default from constants
+        self.textOffset = (0, 0)                        # set the text offset, default there is none
+        
         
         
     def setBackgroundColor(self, color):
@@ -30,11 +34,26 @@ class UIButton(UIView):
         self.backgroundcolor = color
         # self.state = "up"
         self.paint()
+        self.setText()
         # self.updateView()
 
     def setText(self, text=False):
         if text != False:
             self.userText = text
+        font = self.font
+        text1 = font.render(self.userText, 1, (244, 244, 244))
+        text1pos = text1.get_rect()
+        text1pos.centerx = self.rect.width / 2 + self.textOffset[0]
+        text1pos.centery = self.rect.height / 2 + self.textOffset[1]
+
+        font2 = self.font
+        text2 = font2.render(self.userText, 1, (10, 10, 10))
+        text2pos = text2.get_rect()
+        text2pos.centerx = self.rect.width / 2 + self.textOffset[0]
+        text2pos.centery = self.rect.height / 2 + 1 + self.textOffset[1]
+
+        self.image.blit(text2, text2pos)
+        self.image.blit(text1, text1pos)
 
     def updateView(self):
         # self.paint()
@@ -78,12 +97,12 @@ class UIButton(UIView):
             if event.type == pygame.MOUSEBUTTONDOWN and self.state == "up":
                 self.state = "down"
                 self.paint()
-                # self.setText()
+                self.setText()
                 self.parent.updateView()
         if event.type == pygame.MOUSEBUTTONUP and self.state == "down":
             self.state = "up"
             self.paint()
-            # self.setText(False)
+            self.setText(False)
             self.parent.updateView()
 
         print ("Setting state to: " + self.state)
