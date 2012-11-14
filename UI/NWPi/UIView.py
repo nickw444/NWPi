@@ -23,14 +23,19 @@ class UIView():
         self.backgroundcolor = background
         self.borderColor = borderColor
         self.borders = borders
-        # parent.updateView()
+        self.customInitial()
+        self.updateView()
 
     def addSubView(self, subView):
         print "ADDING SUBVIEW"
         self.subViews.append(subView)
         self.updateView()
 
+    def customInitial(self):
+        pass
+
     def addBorders(self, borders = False):
+        print("Adding borders: " + str(self.borders))
         if borders != False:
             self.borders = borders
         self.image.fill(self.borderColor, ((0, 0),(self.rect.width, self.borders[0])))
@@ -71,15 +76,18 @@ class UIView():
     def manageEvent(self, event, caller, withinBounds=True):
     # Traversing down the events tree. We receieved an event from the parent NavigationViewController.
     # We need to now pass this even down the tree to the corresponding object that the mouse landed on or whatnot.
+        # print "Found a subUIView"
         if withinBounds:
             self.userCallback(event, caller)
             # self.actions()
-            
             print ("COCKS on object" + str(self))
         for subView in self.subViews:                                                       # Loop Through each SubView that is LISTENING for events.
+            # print subView.rect
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
                 outside = False                                                                     # Some pre-variable for later reference
-                mouse = event.pos                                                                       # Get the mouse Position
+                mouse = (event.pos[0] - self.rect.x, event.pos[1] - self.rect.y)                                                                       # Get the mouse Position
+                # print "mouse: " + mouse[1]
+                # print "mouse: " + str(mouse)
                 if mouse[0] > subView.rect.topleft[0]:                                                  # Check the mouse position in regards to the subView's rectangle.
                     if mouse[1] > subView.rect.topleft[1]:
                         if mouse[0] < subView.rect.bottomright[0]:

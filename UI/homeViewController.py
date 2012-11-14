@@ -27,7 +27,7 @@ class homeViewController(NWPi.viewController):
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("GAMEVIEW")
 
-        button = NWPi.fancyButton()
+        button = NWPi.fancyButton(self)
         # Initialise a button, easy as pi
         button.setText("Play Game")
         # Put some text on that button
@@ -44,7 +44,7 @@ class homeViewController(NWPi.viewController):
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("THIRDVIEW")
 
-        button2 = NWPi.fancyButton()
+        button2 = NWPi.fancyButton(self)
         # Initialise a button, easy as pi
         button2.setText("Instructions")
         # Put some text on that button
@@ -53,6 +53,7 @@ class homeViewController(NWPi.viewController):
         button2.rect.y = 300
         # Offset it from the top a bit
         button2.setCustomCallback(showViewTwo)
+        button2.setBackgroundColor((128,55,170))
         # Add the callback to the object
         self.addSubView(button2, True)
         # Add the object to the current View.

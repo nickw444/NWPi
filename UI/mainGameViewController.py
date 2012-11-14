@@ -32,17 +32,22 @@ class mainGameViewController(NWPi.viewController):
         # subb = NWPi.UIView((30, 30), view, (255,0,0))
         # subb.rect.x = 5
         # subb.rect.y = 50
-        # def myAction(self, event, caller, within):
-        #     print("Using my action")
-        #     print within
-        #     caller.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
-        # subb.actions = myAction
-        # subb.addBorders((1,1,1,1))
-        # view.addSubView(button2)
-        # view.addSubView(subb)
-        leftColView = NWPi.UIView((220, self.canvas.get_rect().height), self, (0,255,0))
+        def goHome(self, event, caller, within):
+            caller.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
+        leftColView = NWPi.UIView((220, self.canvas.get_rect().height), self, (233,233,233), (0,1,0,0))
         gameView = NWPi.UIView((self.canvas.get_rect().width - leftColView.rect.width, self.canvas.get_rect().height), self, (130, 130, 130))
         gameView.rect.x = leftColView.rect.width
+
+        # backButton = NWPi.UIView((60,60), self, (255,0,0), (5,5,5,5))
+        # backButton.rect.x = 50
+        # backButton.rect.y = 50
+        backButton = NWPi.UIButton((70,40), leftColView)
+        backButton.rect.x = 10
+        backButton.rect.y = 10
+        backButton.setText("Home")
+        backButton.actions = goHome
+        leftColView.addSubView(backButton)
+
 
         self.addSubView(leftColView)
         self.addSubView(gameView)
@@ -60,11 +65,18 @@ class mainGameViewController(NWPi.viewController):
         i2 = 0
         squares = {}
         coords = [0,0]
+        def customCallback(self, event, caller, within):
+            if within:
+                # print self.rect
+                print("Clicked in square: " + str(self.position[0]) + ", " + str(self.position[1]))
+            # print("DICKS")
         while i < rows:
             while i2 < cols:
                 squares[c] = NWPi.UIView((colwid, colheight), self, (236, 236, 236))
                 squares[c].rect.x, squares[c].rect.y = coords
+                squares[c].setCustomCallback(customCallback)
                 gameView.addSubView(squares[c])
+                squares[c].position = [i2, i]
                 c += 1
                 i2 += 1
                 coords[0] += colwid + padd

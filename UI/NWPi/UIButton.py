@@ -11,80 +11,79 @@
 import pygame
 from noticer import *
 from constants import *
+from UIView import *
 
 
-class UIButton(pygame.sprite.Sprite):
-    def __init__(self, dimensions):                     # initialise method
-        cont = constants()                              # Grab the constants
-        pygame.sprite.Sprite.__init__(self)             # Initialise as subclass of pyGame sprite
-        self.image = pygame.Surface(dimensions)         # Draw an image using surface
-        self.rect = self.image.get_rect()               # Set the rectangle of the sprite to the rect of the image we drew
-        self.state = "up"                               # set the buttons current state
-        self.paint()                                    # paint the colours to the button
-        self.textOffset = (0, 0)                        # set the text offset, default there is none
-        self.font = cont.defaultButtonFont              # set the font, default is the default from constants
+class UIButton(UIView):
+    def __init__(self, dimensions, parent):
+        print("DICKS")
+        UIView.__init__(self, dimensions, parent)
         self.userText = ""
-    def paint(self, within=False):
-        # Painting method, used to paint colours to the UIButton
-        self.image = pygame.Surface((self.rect.width, self.rect.height))                            # Fix all the rectangles.  Re-init the image
-        if within:                                                                                  # Paint accordingly whether the mouse is inside or not.
-            self.image.fill((68, 81, 98), ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
-        else:
-            self.image.fill((96, 117, 146), ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
-            self.image.fill((239, 239, 239), ((1, 1), (self.rect.width - 2, 1)))
-
-    def setCustomCallback(self, callback):
-        # Allows setting of a callback on a button.
-        self.actions = callback
-
-    def userCallback(self, event, caller):
-        # Method to run the users custom callback. This will catch fatal exceptions (luckily)
-        try:
-            self.actions(self, event, caller)
-            # Method exists, and was used.
-        except (AttributeError, TypeError):
-            # Method does not exist.  What now?
-            noticer("Method self.actions() does not exist", 2, self)
-
-    def set_rect(rect):
-        # Method to simply set the rectangle of this sprite
-        self.rect = rect    # set the rectangle
-        self.paint()        # Re-paint the image with the new dimensions
-        self.setText()      # Better pop some text back onto that image
+        self.state = "up"
+        self.backgroundcolor = (96, 117, 146)
+        # self.backgroundcolor = (200, 117, 96)
+        self.paint()
+        
+        
+    def setBackgroundColor(self, color):
+        print "Setting BG COCKS"
+        self.backgroundcolor = color
+        # self.state = "up"
+        self.paint()
+        # self.updateView()
 
     def setText(self, text=False):
-        # Method to do text rendering. Simply renders text and blits it to the surface of this object.
         if text != False:
             self.userText = text
-        font = self.font
-        text1 = font.render(self.userText, 1, (244, 244, 244))
-        text1pos = text1.get_rect()
-        text1pos.centerx = self.rect.width / 2 + self.textOffset[0]
-        text1pos.centery = self.rect.height / 2 + self.textOffset[1]
 
-        font2 = self.font
-        text2 = font2.render(self.userText, 1, (10, 10, 10))
-        text2pos = text2.get_rect()
-        text2pos.centerx = self.rect.width / 2 + self.textOffset[0]
-        text2pos.centery = self.rect.height / 2 + 1 + self.textOffset[1]
+    def updateView(self):
+        # self.paint()
+        UIView.updateView(self)
 
-        self.image.blit(text2, text2pos)
-        self.image.blit(text1, text1pos)
+    def paint(self):
+        self.image = pygame.Surface((self.rect.width, self.rect.height))                            # Fix all the rectangles.  Re-init the image
+        if self.state == "down":                                                                                  # Paint accordingly whether the mouse is inside or not.
+            bg = list(self.backgroundcolor)
+            sh = 40                                                 # Shading scale up - Larger the number, the brighter the shaddow
+            d = 2                                                   # Shading dithering value, the greater the number, the more dithered colours will be.
+            sh2 = [0,0,0]
+            self.image.fill((bg[0]/d + sh, bg[1]/d + sh, bg[2]/d + sh), ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
+        else:
+            print "WITHIN BROOOO"
+            bg = list(self.backgroundcolor)
+            self.image.fill(self.backgroundcolor, ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
+            sh = 100
+            if (bg[0] + sh) > 255:
+                bg[0] = 255
+            else:
+                bg[0] += sh
+            if (bg[1] + sh) > 255:
+                bg[1] = 255
+            else:
+                bg[1] += sh
+            if (bg[2] + sh) > 255:
+                bg[2] = 255  
+            else:
+                bg[2] += sh
+            print bg
+            self.image.fill((bg[0], bg[1], bg[2]), ((1, 1), (self.rect.width - 2, 1)))
 
     def manageEvent(self, event, caller, withinBounds=True):
-        # Manager method for the callback.
-        # Will handle mouse clicks as if they are mousedowns for button effects.
-        # It will also send the mouseclicks to the user preset callback (if set)
+        UIView.manageEvent(self, event, caller, withinBounds)
+        self.manageClickDown(withinBounds, event)
+
+    def manageClickDown(self, withinBounds, event):
+        print ("Managing clickdown")
         if withinBounds:
-            self.userCallback(event, caller)
-        # self.rect.x += 5
             if event.type == pygame.MOUSEBUTTONDOWN and self.state == "up":
                 self.state = "down"
-                self.paint(True)
-                self.setText()
-                caller.updateView()
+                self.paint()
+                # self.setText()
+                self.parent.updateView()
         if event.type == pygame.MOUSEBUTTONUP and self.state == "down":
             self.state = "up"
-            self.paint(False)
-            self.setText(False)
-            caller.updateView()
+            self.paint()
+            # self.setText(False)
+            self.parent.updateView()
+
+        print ("Setting state to: " + self.state)
