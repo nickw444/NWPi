@@ -23,7 +23,8 @@ class homeViewController(NWPi.viewController):
         subtitle.rect.y = 100
         self.addSubView(subtitle, False)
 
-        def showViewOne(self, event, caller):
+        def showViewOne(self, event, caller, withinBounds):
+            print "DEBUG TIME"
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("GAMEVIEW")
 
@@ -40,7 +41,7 @@ class homeViewController(NWPi.viewController):
         self.addSubView(button, True)
         # Add the object to the current View.
 
-        def showViewTwo(self, event, caller):
+        def showViewTwo(self, event, caller, withinBounds):
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("THIRDVIEW")
 

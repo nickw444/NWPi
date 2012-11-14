@@ -27,15 +27,19 @@ class UIView():
         self.updateView()
 
     def addSubView(self, subView):
-        print "ADDING SUBVIEW"
+        # print "ADDING SUBVIEW"
         self.subViews.append(subView)
         self.updateView()
 
     def customInitial(self):
         pass
 
+    def clearSubviews(self):
+        self.subViews = []
+        self.updateView()
+
     def addBorders(self, borders = False):
-        print("Adding borders: " + str(self.borders))
+        # print("Adding borders: " + str(self.borders))
         if borders != False:
             self.borders = borders
         self.image.fill(self.borderColor, ((0, 0),(self.rect.width, self.borders[0])))
@@ -51,19 +55,20 @@ class UIView():
     def setBackgroundImage(self, image):
         self.image, self.rect = Images.load_image(image)
 
-    def userCallback(self, event, caller):
+    def userCallback(self, event, caller, withinBounds):
         # Method to run the users custom callback. This will catch fatal exceptions (luckily)
 
         # self.actions = showViewOne
         try:
-            self.actions(self, event, caller)
+            self.actions(self, event, caller, withinBounds)
+            # self.actions(self, event, caller)
             # Method exists, and was used.
         except (AttributeError, TypeError):
             # Method does not exist.  What now?
             noticer("Method self.actions() ddd does not exist", 2, self)
 
     def updateView(self):
-        print self.subViews
+        # print self.subViews
         # Blitting method for viewController.
         self.image.fill(self.backgroundcolor)                     # Re-Fill the canvas, wipe EVERYTHING
         self.addBorders()
@@ -81,9 +86,10 @@ class UIView():
     # We need to now pass this even down the tree to the corresponding object that the mouse landed on or whatnot.
         # print "Found a subUIView"
         if withinBounds:
-            self.userCallback(event, caller)
+            # self.userCallback(event, caller)
+            self.userCallback(event, caller, withinBounds)
             # self.actions()
-            print ("COCKS on object" + str(self))
+            # print ("COCKS on object" + str(self))
         for subView in self.subViews:                                                       # Loop Through each SubView that is LISTENING for events.
             # print subView.rect
             if self.isVisible:                                                                      # Ensure this view is visible (It should be if we've already come this far)
@@ -98,8 +104,8 @@ class UIView():
                                 # noticer("Mouse within bounds", 0, subView)                                  # Mouse is within the bounds
                                 # It's easier to ask forgiveness than to ask permission.                    # Catching exceptions is key here, in case the subView doesn't have a callback method implemented
                                 try:
-                                    print("Calling the subView")
-                                    subView.subTest(event, self, True)
+                                    # print("Calling the subView")
+                                    subView.manageEvent(event, self, True)
                                     # subView.manageEvent(event, self, True)                                      # Method exists, and was used.
                                 except (AttributeError, TypeError):
                                     noticer("Method manageEvent() does not exist", 1, subView)                  # Method does not exist.  What now?

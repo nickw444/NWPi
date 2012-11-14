@@ -17,7 +17,7 @@ class secondAlternativeView(NWPi.viewController):
         text.rect.y = 200
         self.addSubView(text)
 
-        def backToHome(self, event, caller):
+        def backToHome(self, event, caller, withinBounds):
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
 

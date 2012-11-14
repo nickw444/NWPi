@@ -16,7 +16,7 @@ from UIView import *
 
 class UIButton(UIView):
     def __init__(self, dimensions, parent):
-        print("DICKS")
+        # print("DICKS")
         cont = constants() 
         UIView.__init__(self, dimensions, parent)
         self.userText = ""
@@ -30,7 +30,7 @@ class UIButton(UIView):
         
         
     def setBackgroundColor(self, color):
-        print "Setting BG COCKS"
+        # print "Setting BG COCKS"
         self.backgroundcolor = color
         # self.state = "up"
         self.paint()
@@ -68,7 +68,7 @@ class UIButton(UIView):
             sh2 = [0,0,0]
             self.image.fill((bg[0]/d + sh, bg[1]/d + sh, bg[2]/d + sh), ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
         else:
-            print "WITHIN BROOOO"
+            # print "WITHIN BROOOO"
             bg = list(self.backgroundcolor)
             self.image.fill(self.backgroundcolor, ((1, 1), (self.rect.width - 2, self.rect.height - 2)))
             sh = 100
@@ -94,6 +94,7 @@ class UIButton(UIView):
     def manageClickDown(self, withinBounds, event):
         print ("Managing clickdown")
         if withinBounds:
+            print ("And we're in bounds")
             if event.type == pygame.MOUSEBUTTONDOWN and self.state == "up":
                 self.state = "down"
                 self.paint()
@@ -105,4 +106,4 @@ class UIButton(UIView):
             self.setText(False)
             self.parent.updateView()
 
-        print ("Setting state to: " + self.state)
+        # print ("Setting state to: " + self.state)
