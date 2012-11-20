@@ -17,39 +17,35 @@ class mainGameViewController(NWPi.viewController):
             i2 = 0
             while i2 < len(self.squares[i]):
                 # print self.squares[i][i2].taken
-                if self.squares[i][i2].taken:
-                    # Check on the horizontal plane
-                    # origOccu = 
-                    print self.squares[i][i2].occupiedBy
-                    # print self.traverseHorizontal((i, i2), 3, 1)
-                    # if (i2 + 1) < len(self.squares[i]):
-                    #     # print self.squares[i][i2 + 1].occupiedBy
-                    #     if self.squares[i][i2 + 1].taken and (self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i][i2 + 1].occupiedBy == "TRIANGLE"):
-                    #         print("Found second " + self.squares[i][i2 + 1].occupiedBy)
-                    #         if (i2 + 2) < len(self.squares[i]):
-                    #             if self.squares[i][i2 + 2].taken and (self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i][i2 + 2].occupiedBy == "TRIANGLE"):
-                    #                 print("Found third " + self.squares[i][i2 + 2].occupiedBy)
-                    #                 print("Three in a row found horizontally")
+                if self.squares[i][i2].taken and (self.squares[i][i2].occupiedBy == "PLAYER1" or self.squares[i][i2].occupiedBy == "PLAYER2"):
+                    # print self.squares[i][i2].occupiedBy
+                    if (i2 + 1) < len(self.squares[i]):
+                        if self.squares[i][i2 + 1].taken and (self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                            print("Found second " + self.squares[i][i2 + 1].occupiedBy)
+                            if (i2 + 2) < len(self.squares[i]):
+                                if self.squares[i][i2 + 2].taken and (self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                    print("Found third " + self.squares[i][i2 + 2].occupiedBy)
+                                    print("Three in a row found horizontally")
 
                     # # Check on the vertical plane
-                    # if (i + 1) < len(self.squares):
-                    #     if self.squares[i + 1][i2].taken and (self.squares[i + 1][i2].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 1][i2].occupiedBy == "TRIANGLE"):
-                    #         if (i + 2) < len(self.squares):
-                    #             if self.squares[i + 2][i2].taken and (self.squares[i + 2][i2].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 2][i2].occupiedBy == "TRIANGLE"):
-                    #                 print("Three in a row vertically")
+                    if (i + 1) < len(self.squares):
+                        if self.squares[i + 1][i2].taken and (self.squares[i + 1][i2].occupiedBy == self.squares[i][i2].occupiedBy):
+                            if (i + 2) < len(self.squares):
+                                if self.squares[i + 2][i2].taken and (self.squares[i + 2][i2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                    print("Three in a row vertically")
 
-                    # if ((i + 1) < len(self.squares)) and ((i2 + 1) < len(self.squares[i])):
-                    #     if self.squares[i + 1][i2 + 1].taken and (self.squares[i + 1][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 1][i2 + 1].occupiedBy == "TRIANGLE"):
-                    #         if ((i + 2) < len(self.squares)) and ((i2 + 2) < len(self.squares[i])):
-                    #             if self.squares[i + 2][i2 + 2].taken and (self.squares[i + 2][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 2][i2 + 2].occupiedBy == "TRIANGLE"):
-                    #                 print("Three in a row diagonally down right")
+                    if ((i + 1) < len(self.squares)) and ((i2 + 1) < len(self.squares[i])):
+                        if self.squares[i + 1][i2 + 1].taken and (self.squares[i + 1][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                            if ((i + 2) < len(self.squares)) and ((i2 + 2) < len(self.squares[i])):
+                                if self.squares[i + 2][i2 + 2].taken and (self.squares[i + 2][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                    print("Three in a row diagonally down right")
 
 
-                    # if ((i + 1) < len(self.squares)) and ((i2 - 1) >= 0):
-                    #     if self.squares[i + 1][i2 - 1].taken and (self.squares[i + 1][i2 - 1].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 1][i2 - 1].occupiedBy == "TRIANGLE"):
-                    #         if ((i + 2) < len(self.squares)) and ((i2 - 2) >= 0):
-                    #             if self.squares[i + 2][i2 - 2].taken and (self.squares[i + 2][i2 - 2].occupiedBy == self.squares[i][i2].occupiedBy or self.squares[i + 2][i2 - 2].occupiedBy == "TRIANGLE"):
-                    #                 print("Three in a row diagonally down left")
+                    if ((i + 1) < len(self.squares)) and ((i2 - 1) >= 0):
+                        if self.squares[i + 1][i2 - 1].taken and (self.squares[i + 1][i2 - 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                            if ((i + 2) < len(self.squares)) and ((i2 - 2) >= 0):
+                                if self.squares[i + 2][i2 - 2].taken and (self.squares[i + 2][i2 - 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                    print("Three in a row diagonally down left")
 
                     # if self.squares[i][i2 + 1].taken and self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy:
                     #     # the one to the right is also taken
