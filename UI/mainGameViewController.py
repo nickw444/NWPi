@@ -13,48 +13,57 @@ import random
 class mainGameViewController(NWPi.viewController):
     def checkThreeInARow(self):
         self.updateTurnView()
+        drawCounter = 0
         i = 0
         while i <  len(self.squares):
             i2 = 0
             while i2 < len(self.squares[i]):
                 # print self.squares[i][i2].taken
-                if self.squares[i][i2].taken and (self.squares[i][i2].occupiedBy == "PLAYER1" or self.squares[i][i2].occupiedBy == "PLAYER2"):
+                if self.squares[i][i2].taken:
+                    if (self.squares[i][i2].occupiedBy == "PLAYER1" or self.squares[i][i2].occupiedBy == "PLAYER2"):
                     # print self.squares[i][i2].occupiedBy
-                    if (i2 + 1) < len(self.squares[i]):
-                        if self.squares[i][i2 + 1].taken and (self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
-                            print("Found second " + self.squares[i][i2 + 1].occupiedBy)
-                            if (i2 + 2) < len(self.squares[i]):
-                                if self.squares[i][i2 + 2].taken and (self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
-                                    print("Found third " + self.squares[i][i2 + 2].occupiedBy)
-                                    print("Three in a row found horizontally")
+                        if (i2 + 1) < len(self.squares[i]):
+                            if self.squares[i][i2 + 1].taken and (self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                                print("Found second " + self.squares[i][i2 + 1].occupiedBy)
+                                if (i2 + 2) < len(self.squares[i]):
+                                    if self.squares[i][i2 + 2].taken and (self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                        print("Found third " + self.squares[i][i2 + 2].occupiedBy)
+                                        print("Three in a row found horizontally")
 
-                    # # Check on the vertical plane
-                    if (i + 1) < len(self.squares):
-                        if self.squares[i + 1][i2].taken and (self.squares[i + 1][i2].occupiedBy == self.squares[i][i2].occupiedBy):
-                            if (i + 2) < len(self.squares):
-                                if self.squares[i + 2][i2].taken and (self.squares[i + 2][i2].occupiedBy == self.squares[i][i2].occupiedBy):
-                                    print("Three in a row vertically")
+                        # # Check on the vertical plane
+                        if (i + 1) < len(self.squares):
+                            if self.squares[i + 1][i2].taken and (self.squares[i + 1][i2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                if (i + 2) < len(self.squares):
+                                    if self.squares[i + 2][i2].taken and (self.squares[i + 2][i2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                        print("Three in a row vertically")
 
-                    if ((i + 1) < len(self.squares)) and ((i2 + 1) < len(self.squares[i])):
-                        if self.squares[i + 1][i2 + 1].taken and (self.squares[i + 1][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
-                            if ((i + 2) < len(self.squares)) and ((i2 + 2) < len(self.squares[i])):
-                                if self.squares[i + 2][i2 + 2].taken and (self.squares[i + 2][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
-                                    print("Three in a row diagonally down right")
+                        if ((i + 1) < len(self.squares)) and ((i2 + 1) < len(self.squares[i])):
+                            if self.squares[i + 1][i2 + 1].taken and (self.squares[i + 1][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                                if ((i + 2) < len(self.squares)) and ((i2 + 2) < len(self.squares[i])):
+                                    if self.squares[i + 2][i2 + 2].taken and (self.squares[i + 2][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                        print("Three in a row diagonally down right")
 
 
-                    if ((i + 1) < len(self.squares)) and ((i2 - 1) >= 0):
-                        if self.squares[i + 1][i2 - 1].taken and (self.squares[i + 1][i2 - 1].occupiedBy == self.squares[i][i2].occupiedBy):
-                            if ((i + 2) < len(self.squares)) and ((i2 - 2) >= 0):
-                                if self.squares[i + 2][i2 - 2].taken and (self.squares[i + 2][i2 - 2].occupiedBy == self.squares[i][i2].occupiedBy):
-                                    print("Three in a row diagonally down left")
+                        if ((i + 1) < len(self.squares)) and ((i2 - 1) >= 0):
+                            if self.squares[i + 1][i2 - 1].taken and (self.squares[i + 1][i2 - 1].occupiedBy == self.squares[i][i2].occupiedBy):
+                                if ((i + 2) < len(self.squares)) and ((i2 - 2) >= 0):
+                                    if self.squares[i + 2][i2 - 2].taken and (self.squares[i + 2][i2 - 2].occupiedBy == self.squares[i][i2].occupiedBy):
+                                        print("Three in a row diagonally down left")
 
-                    # if self.squares[i][i2 + 1].taken and self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy:
-                    #     # the one to the right is also taken
-                    #     if self.squares[i][i2 + 2].taken and self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy:
-                    #         # there are three in a row.
-                    #         print ("WE HAVE A WINNER")
+                        # if self.squares[i][i2 + 1].taken and self.squares[i][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy:
+                        #     # the one to the right is also taken
+                        #     if self.squares[i][i2 + 2].taken and self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy:
+                        #         # there are three in a row.
+                        #         print ("WE HAVE A WINNER")
+                    drawCounter += 1
                 i2 +=1
             i += 1
+
+
+        print "THIS IS THE DRAWCOUNTER:" + str(drawCounter)
+        print "OF THIS MANY SQAURES: " + str(len(self.squares) * len(self.squares[0]))
+        if drawCounter >= len(self.squares) * len(self.squares[0]):
+            print "IT'S A DRAWWWWWWerrrre"
 
     def generateGameBoard(self, gameView):
         rows = 6
@@ -133,7 +142,7 @@ class mainGameViewController(NWPi.viewController):
                             self.parent.parent.turn = "PLAYER1"
 
                         self.addSubView(subImageforsquare)
-                        self.parent.parent.updateTurnView()
+                        self.parent.parent.checkThreeInARow()
                         caller.updateView()
         while i < rows:
             self.squares[i] = {}
@@ -218,7 +227,7 @@ class mainGameViewController(NWPi.viewController):
         topButtonBorderView.addSubView(resetButton)
 
 
-        self.whoseTurnView = NWPi.UIView((leftColView.rect.width - 1, 120), leftColView, (233,233,233), (0,0,1,0))
+        self.whoseTurnView = NWPi.UIView((leftColView.rect.width - 1, 120), leftColView, (233,233,233), (0,0,1,0), (160,160,160))
         self.whoseTurnView.rect.y = 91
         # turnIcon = NWPi.UIView((0, 0), self.whoseTurnView, (236, 236, 236))
         # turnIcon.setBackgroundImage('cross.png')
