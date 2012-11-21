@@ -16,11 +16,23 @@ class UIAlertView(UIView):
     def customInitial(self):
         def hideView(self, event, caller, withinBounds):
             if event.type == pygame.MOUSEBUTTONUP:
+                # self.parent.parent.removeSubView(self.parent.parent.gameView)
                 self.parent.parent.removeSubView(self.parent)
+                print "MEEEE" + str(self.parent)
+                print "SUBVIEWSSS: " + str(self.parent.parent.subViews)
+                self.parent.parent.gameView.isVisible = True
+                for view in self.parent.parent.subViews:
+                    view.isVisible = True
+                # self.parent.updateView()
+                # self.parent.parent.parent.parent.parent.removeSubView(self.parent)
             
         okayButton = UIButton((70,30), self)
         okayButton.setText("Okay")
         okayButton.actions = hideView
-        okayButton.y = 50
-        okayButton.x = 50
+        okayButton.rect.x = self.rect.width - okayButton.rect.width - 10
+        okayButton.rect.y = self.rect.height - okayButton.rect.height - 10
         self.addSubView(okayButton)
+
+        for view in self.parent.subViews:
+            if view != self:
+                view.isVisible = False

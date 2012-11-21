@@ -195,7 +195,6 @@ class mainGameViewController(NWPi.viewController):
         self.setBackgroundColor((150,150,150))
         
         def goHome(self, event, caller, within):
-
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.parent.parent.resetBoard()
                 caller.parent.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
@@ -206,6 +205,17 @@ class mainGameViewController(NWPi.viewController):
                 self.parent.parent.parent.turn = "PLAYER1"
                 caller.parent.parent.resetBoard()
 
+        def showUIAlertView(self, event, caller, within):
+            if event.type == pygame.MOUSEBUTTONUP:
+                print "Showing UIAlert"
+                alert = NWPi.UIAlertView((300, 130), caller.parent.parent, (230,230,230), (2,2,2,2))
+                # alert.controller = caller.parent.parent
+                # alert.controller = caller.parent.parent
+                alert.rect.centerx = caller.parent.parent.get_rect().width/2
+                alert.rect.centery = caller.parent.parent.get_rect().height/ 2 - 50
+                # print caller.parent.parent
+                # caller.parent.parent.gameView.isVisible = False
+                caller.parent.parent.addSubView(alert)
 
         leftColView = NWPi.UIView((220, self.canvas.get_rect().height), self, (233,233,233), (0,1,0,0))
         topButtonBorderView = NWPi.UIView((leftColView.rect.width - 1, 90), leftColView, (220,220,220), (0,0,1,0), (160,160,160))
@@ -223,7 +233,8 @@ class mainGameViewController(NWPi.viewController):
         resetButton.rect.y = 50
         resetButton.setBackgroundColor((170,60,60))
         resetButton.setText("Reset Game")
-        resetButton.actions = resetBoard
+        # resetButton.actions = resetBoard
+        resetButton.actions = showUIAlertView
         topButtonBorderView.addSubView(resetButton)
 
 
