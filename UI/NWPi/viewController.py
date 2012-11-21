@@ -32,9 +32,12 @@ class viewController():
         # SubClassable method. This can be edited to allow custom initialisation, such as custom drawing.
         return
 
+    def get_rect(self):
+        return self.canvas.get_rect()
+
     def setBackgroundColor(self, colors):
         # Self explanatory. Set the background color. boom headshot.
-        self.backgroundcolour = colors
+        self.backgroundcolor = colors
         self.updateView()
 
     def manageEvent(self, event):
@@ -80,7 +83,8 @@ class viewController():
     def removeSubView(self, object):
         # Remove a view from the superview. Good for removing text or sprites
         self.subViews.remove(object)                        # Simply remove the objects from the array and you're done. Easy as pi.
-        self.listeningSubViews.remove(object)               # once again, just remove them from this array too
+        if object in self.listeningSubViews:
+            self.listeningSubViews.remove(object)               # once again, just remove them from this array too
         self.updateView()                                   # Re-blit everything
 
     def updateView(self):

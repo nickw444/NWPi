@@ -16,3 +16,4 @@ from textObject import *
 from UIButton import *
 # from spriteFromRect import *
 from UIView import *
+from UIAlertView import *
