@@ -4,8 +4,108 @@
 		"selected_items":
 		[
 			[
+				"PLAYER",
+				"PLAYER2"
+			],
+			[
+				"ran",
+				"randomGaySquares"
+			],
+			[
+				"random",
+				"randomGaySquares"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"squa",
+				"square"
+			],
+			[
+				"sq",
+				"square"
+			],
+			[
+				"s",
+				"squares"
+			],
+			[
+				"setBack",
+				"setBackgroundImage"
+			],
+			[
+				"lis",
+				"listeningSubViews"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"cen",
+				"centery"
+			],
+			[
+				"ce",
+				"centery"
+			],
+			[
+				"cent",
+				"centerx"
+			],
+			[
+				"rese",
+				"resetBoard"
+			],
+			[
+				"upda",
+				"updateView"
+			],
+			[
+				"col",
+				"colheight"
+			],
+			[
+				"colw",
+				"colwid"
+			],
+			[
+				"Ima",
+				"images"
+			],
+			[
 				"sub",
-				"subView"
+				"subImageforsquare"
+			],
+			[
+				"set",
+				"setText"
+			],
+			[
+				"sh",
+				"sh2"
+			],
+			[
+				"manage",
+				"manageClickDown"
+			],
+			[
+				"cus",
+				"customInitial"
+			],
+			[
+				"co",
+				"coords"
+			],
+			[
+				"add",
+				"addSubView"
+			],
+			[
+				"vi",
+				"viewHeight"
 			],
 			[
 				"within",
@@ -100,10 +200,6 @@
 				"subView	Default"
 			],
 			[
-				"cent",
-				"centerx	Default"
-			],
-			[
 				"app",
 				"append()	Mutable"
 			],
@@ -176,19 +272,7 @@
 				"centerx	Default"
 			],
 			[
-				"add",
-				"addSubView	Default"
-			],
-			[
-				"upda",
-				"updateView	Default"
-			],
-			[
 				"liste",
-				"listeningSubViews	Default"
-			],
-			[
-				"lis",
 				"listeningSubViews	Default"
 			],
 			[
@@ -392,16 +476,8 @@
 				"mysql_insert_id"
 			],
 			[
-				"ran",
-				"randomString"
-			],
-			[
 				"num",
 				"num_rows"
-			],
-			[
-				"rand",
-				"randomString"
 			],
 			[
 				"window",
@@ -438,132 +514,16 @@
 			[
 				"st",
 				"stion"
-			],
-			[
-				"row",
-				"rowsum"
-			],
-			[
-				"wp",
-				"wpBar"
-			],
-			[
-				"scrol",
-				"scrollTop"
-			],
-			[
-				"attachment",
-				"attachmentTitle"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"ani",
-				"aniLogo"
-			],
-			[
-				"font-",
-				"font-weight"
-			],
-			[
-				"read",
-				"ready	document ready - jQuery"
-			],
-			[
-				"fade",
-				"fadeIn"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"_la",
-				"_languageWidth"
-			],
-			[
-				"padding-",
-				"padding-top"
-			],
-			[
-				"li",
-				"list-style"
-			],
-			[
-				"inlin",
-				"inline-block"
-			],
-			[
-				"compa",
-				"companyFullName"
-			],
-			[
-				"fget",
-				"fgetcsv"
-			],
-			[
-				"csv",
-				"csvRows"
-			],
-			[
-				"td",
-				"tdata"
-			],
-			[
-				"tus",
-				"tusername"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "UI/mainGameViewController.py",
+			"file": "log.txt",
 			"settings":
 			{
-				"buffer_size": 1366,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 46,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "UI/NWPi/UIView.py",
-			"settings":
-			{
-				"buffer_size": 6230,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "UI/NWPi/UIButton.py",
-			"settings":
-			{
-				"buffer_size": 4508,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "UI/NWPi/viewController.py",
-			"settings":
-			{
-				"buffer_size": 6792,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "UI/homeViewController.py",
-			"settings":
-			{
-				"buffer_size": 2921,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -684,9 +644,21 @@
 	},
 	"file_history":
 	[
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIButton.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/secondAlternativeView.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/mainGameViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/Images.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/constants.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/fancyButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/homeViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/oldUIButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIAlertView.py",
+		"/Users/nickw/Desktop/org.chameleon.Boot.plist",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/__init__.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/viewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/firstAlternativeView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/README.md",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/spriteFromRect.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/.gitignore",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/project.sublime-project",
@@ -799,19 +771,7 @@
 		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#13/requests.php",
 		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#12/registrations.php",
 		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#11/public.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#10/newItem.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#9/login.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#8/getLists.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#7/getItems.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#6/deletelist.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#5/deleteItems.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#3/addList.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#2/newItem.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#1/getItems.php",
-		"/sites/80/listy/l/index.php",
-		"/sites/80/listy/.htaccess",
-		"/sites/80/listy/l/RewriteEngine On",
-		"/sites/80/listy/login.php"
+		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#10/newItem.php"
 	],
 	"find":
 	{
@@ -831,6 +791,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"reset",
+			"turn",
+			"print",
+			"leftCol",
+			"i",
 			"run",
 			"line too long",
 			"Images",
@@ -953,12 +918,7 @@
 			"ziplink",
 			"table",
 			"Root",
-			"info",
-			"Encode Explorer",
-			"header",
-			"two",
-			"<!",
-			"toolbar"
+			"info"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -976,171 +936,31 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "UI/mainGameViewController.py",
+					"file": "log.txt",
 					"settings":
 					{
-						"buffer_size": 1366,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1237,
-								1237
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 46,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "UI/NWPi/UIView.py",
-					"settings":
-					{
-						"buffer_size": 6230,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3509,
-								3509
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 696.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "UI/NWPi/UIButton.py",
-					"settings":
-					{
-						"buffer_size": 4508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2446,
-								2446
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 607.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "UI/NWPi/viewController.py",
-					"settings":
-					{
-						"buffer_size": 6792,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3961,
-								3965
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 2.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "UI/homeViewController.py",
-					"settings":
-					{
-						"buffer_size": 2921,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1485,
-								1485
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 94.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
