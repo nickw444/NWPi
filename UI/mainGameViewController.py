@@ -12,6 +12,7 @@ import random
 
 class mainGameViewController(NWPi.viewController):
     def checkThreeInARow(self):
+        self.updateTurnView()
         i = 0
         while i <  len(self.squares):
             i2 = 0
@@ -132,6 +133,7 @@ class mainGameViewController(NWPi.viewController):
                             self.parent.parent.turn = "PLAYER1"
 
                         self.addSubView(subImageforsquare)
+                        self.parent.parent.updateTurnView()
                         caller.updateView()
         while i < rows:
             self.squares[i] = {}
@@ -177,43 +179,92 @@ class mainGameViewController(NWPi.viewController):
     def resetBoard(self):
         self.gameView.clearSubviews()
         self.generateGameBoard(self.gameView)
+        self.updateTurnView()
 
     def customInitial(self):
         self.turn = "PLAYER1"
         self.setBackgroundColor((150,150,150))
         
         def goHome(self, event, caller, within):
+
             if event.type == pygame.MOUSEBUTTONUP:
-                caller.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
+                caller.parent.parent.resetBoard()
+                caller.parent.parent.navigationController.makeKeyAndVisible("HOMEVIEWCONTROLLER")
         
         def resetBoard(self, event, caller, within):
-            print 'woo'
+            # print 'woo'
             if event.type == pygame.MOUSEBUTTONUP:
-                caller.parent.resetBoard()
+                self.parent.parent.parent.turn = "PLAYER1"
+                caller.parent.parent.resetBoard()
 
 
         leftColView = NWPi.UIView((220, self.canvas.get_rect().height), self, (233,233,233), (0,1,0,0))
+        topButtonBorderView = NWPi.UIView((leftColView.rect.width - 1, 90), leftColView, (220,220,220), (0,0,1,0), (160,160,160))
 
-        backButton = NWPi.UIButton((70,30), leftColView)
-        backButton.rect.x = 10
+
+        backButton = NWPi.UIButton((180,30), topButtonBorderView)
+        backButton.rect.centerx = topButtonBorderView.rect.width /2
         backButton.rect.y = 10
-        backButton.setText("Home")
+        backButton.setText("End Game")
         backButton.actions = goHome
-        leftColView.addSubView(backButton)
+        topButtonBorderView.addSubView(backButton)
 
-        resetButton = NWPi.UIButton((70,30), leftColView)
-        resetButton.rect.x = 90
-        resetButton.rect.y = 10
-        resetButton.setText("Reset")
+        resetButton = NWPi.UIButton((180,30), topButtonBorderView)
+        resetButton.rect.centerx = topButtonBorderView.rect.width / 2
+        resetButton.rect.y = 50
+        resetButton.setBackgroundColor((170,60,60))
+        resetButton.setText("Reset Game")
         resetButton.actions = resetBoard
-        leftColView.addSubView(resetButton)
+        topButtonBorderView.addSubView(resetButton)
 
+
+        self.whoseTurnView = NWPi.UIView((leftColView.rect.width - 1, 120), leftColView, (233,233,233), (0,0,1,0))
+        self.whoseTurnView.rect.y = 91
+        # turnIcon = NWPi.UIView((0, 0), self.whoseTurnView, (236, 236, 236))
+        # turnIcon.setBackgroundImage('cross.png')
+        # turnIcon.rect.centerx = self.whoseTurnView.rect.width / 2
+        # turnIcon.rect.y = 15
+        # self.whoseTurnView.addSubView(turnIcon)
+
+        # turnText = NWPi.textObject("Player 1 To Move")
+        # turnText.rect.centerx = self.whoseTurnView.rect.width / 2
+        # turnText.rect.y = turnIcon.rect.height + 20
+        # self.whoseTurnView.addSubView(turnText)
+        self.updateTurnView()
+        leftColView.addSubView(self.whoseTurnView)
+        leftColView.addSubView(topButtonBorderView)
 
         self.addSubView(leftColView)
         self.gameView = NWPi.UIView((self.canvas.get_rect().width - leftColView.rect.width, self.canvas.get_rect().height), self, (130, 130, 130))
         self.gameView.rect.x = leftColView.rect.width
         self.addSubView(self.gameView)
         self.generateGameBoard(self.gameView)
+
+    def updateTurnView(self):
+        self.whoseTurnView.clearSubviews()
+
+        turnIcon = NWPi.UIView((0, 0), self.whoseTurnView, (236, 236, 236))
+        if self.turn == "PLAYER1":
+            turnIcon.setBackgroundImage('cross.png')
+            turnIcon.rect.centerx = self.whoseTurnView.rect.width / 2
+            turnIcon.rect.y = 15
+           
+            turnText = NWPi.textObject("Player 1 To Move")
+            turnText.rect.centerx = self.whoseTurnView.rect.width / 2
+            turnText.rect.y = 85
+            
+        elif self.turn == "PLAYER2":
+            turnIcon.setBackgroundImage('circle.png')
+            turnIcon.rect.centerx = self.whoseTurnView.rect.width / 2
+            turnIcon.rect.y = 15
+
+            turnText = NWPi.textObject("Player 2 To Move")
+            turnText.rect.centerx = self.whoseTurnView.rect.width / 2
+            turnText.rect.y = 85
+
+        self.whoseTurnView.addSubView(turnIcon)
+        self.whoseTurnView.addSubView(turnText)
+        self.whoseTurnView.updateView()
 
 
 

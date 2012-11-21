@@ -17,6 +17,6 @@ class constants():
     def __init__(self):
         self.fancyFont = os.path.join('data', "Savoye.ttf")
         self.fancyButtonFont = pygame.font.Font(os.path.join('data', "Savoye.ttf"), 32)
-        self.defaultFontSize = 50
-        self.defaultFont = pygame.font.SysFont("Comic Sans MS", self.defaultFontSize, False, False)
+        self.defaultFontSize = 16
+        self.defaultFont = pygame.font.SysFont("Arial", self.defaultFontSize, False, False)
         self.defaultButtonFont = pygame.font.SysFont("Arial", 14, False, False)
