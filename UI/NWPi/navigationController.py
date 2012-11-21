@@ -10,6 +10,10 @@
 # This is the topMost class on the view tree model.
 # All subviews MUST be placed on this view by running "AddSubview" method
 # It is recomended to only place objects of Viewcontroller class to this object as they can handle events correctly
+
+# This class was originally implemented before UIView was implemented, This /should/ be subclassed from UIView eventually.
+# However, the assignment is due tomorrow, so i don't want to screw anything up
+
 import pygame               # Grab pygame
 import copy                 # Allow for copying of objects (not just object references which kills everything)
 from noticer import *       # Allow debugging and logging.
@@ -26,7 +30,7 @@ class navigationController():                               # Define the class
         # Method allows the NavigationController to have subViews added.
         # Will simply add them to the subViews array for use later in the self.updateView method
         # The object being added MUST have a runCallback(event) method otherwise an exception will be thown (CBF catching errors)
-        self.subViews.append({"identifier": identifier, "object": object})              # Add to the array
+        self.subViews.append({"identifier": identifier, "object": object})             # Add to the array
         self.updateView()                                                             # Update this navigation controller and blit everything from below upwards.
 
     # method removeSubView needs a re-write and CBF right now. Concept is still here, just needs re-writing to account for the different list structure
@@ -48,7 +52,7 @@ class navigationController():                               # Define the class
         self.screen.blit(self.canvas, (0, 0))
 
     def makeKeyAndVisible(self, identifier):
-        # This method is needed to bring a subView/viewController to the font. It re-organises the subViews list.
+        # This method is needed to bring a subView/viewController to the front. It re-organises the subViews list.
         i = 0                                                       # Set a counter for the loop
         found = False                                               # Set some defaults
         views = copy.copy(self.subViews)                            # Make a copy of the subViews array so we can modify it without fucking everything up

@@ -49,17 +49,14 @@ def main():
     home = UI.homeViewController(navigationViewController)                 # Create a ViewController, from subclass homeViewController where all elements are already defined
     navigationViewController.addSubView("HOMEVIEWCONTROLLER", home)     # Add the ViewController to the navigation Controller. Do the same with the rest.
 
-    firstView = UI.firstAlternativeView(navigationViewController)
-    navigationViewController.addSubView("SECONDVIEW", firstView)
-
-    secondView = UI.secondAlternativeView(navigationViewController)
-    navigationViewController.addSubView("THIRDVIEW", secondView)
+    secondView = UI.instructionsViewController(navigationViewController)
+    navigationViewController.addSubView("INSTRUCTIONS", secondView)
 
     gameView = UI.mainGameViewController(navigationViewController)
     navigationViewController.addSubView("GAMEVIEW", gameView)
 
     # We need to set a viewController to show as the top level. Choose it here:
-    navigationViewController.makeKeyAndVisible("HOMEVIEWCONTROLLER")    # Tell the navigation controller to set the view with the specified identifier to the top
+    navigationViewController.makeKeyAndVisible("INSTRUCTIONS")    # Tell the navigation controller to set the view with the specified identifier to the top
 
     # We need a loop to keep the script running. Defining it here
     while True:

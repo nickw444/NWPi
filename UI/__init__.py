@@ -8,7 +8,7 @@
 
 # import NWPi
 from homeViewController import *
-from secondAlternativeView import *
+from instructionsViewController import *
 from firstAlternativeView import *
 from mainGameViewController import *
 

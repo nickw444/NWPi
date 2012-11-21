@@ -6,6 +6,9 @@
 ### http://www.nickwhyte.com/
 #####################################################################
 
+# This file imports all files for this module for easy inclusions around the game.
+
+
 from viewController import *
 from navigationController import *
 from noticer import *

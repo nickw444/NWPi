@@ -7,7 +7,7 @@
 #####################################################################
 
 # Global constants class. Will hold ALL changable data for the game
-# This file should be populated with YOUR game settings for reference later in ANY superclass.
+# This file should be populated with game settings for reference later in ANY superclass.
 # The rest of the class is pretty self explanatory IMO.
 import os 		 # Import OS functions for File Paths
 import pygame	 # Import pygame for Fonts, etc

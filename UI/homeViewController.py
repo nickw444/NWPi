@@ -8,7 +8,7 @@
 
 import pygame
 import NWPi
-
+import sys
 
 class homeViewController(NWPi.viewController):
     def customInitial(self):
@@ -18,13 +18,12 @@ class homeViewController(NWPi.viewController):
         title.rect.y = 30
         self.addSubView(title, False)
 
-        subtitle = NWPi.textObject("By Dylan and Nick", pygame.font.Font(self.constants.fancyFont, 25), True)
+        subtitle = NWPi.textObject("By Nick and Dylan", pygame.font.Font(self.constants.fancyFont, 25), True)
         subtitle.rect.centerx = self.canvas.get_rect().centerx
         subtitle.rect.y = 100
         self.addSubView(subtitle, False)
 
         def showViewOne(self, event, caller, withinBounds):
-            print "DEBUG TIME"
             if event.type == pygame.MOUSEBUTTONUP:
                 caller.navigationController.makeKeyAndVisible("GAMEVIEW")
 
@@ -43,7 +42,7 @@ class homeViewController(NWPi.viewController):
 
         def showViewTwo(self, event, caller, withinBounds):
             if event.type == pygame.MOUSEBUTTONUP:
-                caller.navigationController.makeKeyAndVisible("THIRDVIEW")
+                caller.navigationController.makeKeyAndVisible("INSTRUCTIONS")
 
         button2 = NWPi.fancyButton(self)
         # Initialise a button, easy as pi
@@ -54,24 +53,30 @@ class homeViewController(NWPi.viewController):
         button2.rect.y = 300
         # Offset it from the top a bit
         button2.setCustomCallback(showViewTwo)
-        button2.setBackgroundColor((128,55,170))
+        # button2.setBackgroundColor((160,128,128))
         # Add the callback to the object
         self.addSubView(button2, True)
         # Add the object to the current View.
 
-        # button3 = NWPi.UIButton((160, 40))
-        # button3.rect.centerx = self.canvas.get_rect().centerx
-        # button3.rect.y = 500
-        # button3.font = pygame.font.SysFont("Arial", 16, False, False)
-        # button3.setText("Text text text")
-        # self.addSubView(button3, True)
+        def quit(self, event, caller, withinBounds):
+            if event.type == pygame.MOUSEBUTTONUP:
+                sys.exit()
 
-        # def moveButton(self, event, caller):
-        #     self.rect.x += 1
-        #     caller.updateView()     
-        #         # print "DICKSSSSSSSS"
-        #         # print event
-        #             # print 'cocks'
-        #             # self.rect.x = event.pos[0]
 
-        # button3.setCustomCallback(moveButton)
+        quitButton = NWPi.UIButton((60, 30), self)
+        # Initialise a button, easy as pi
+        quitButton.setText("Quit")
+        # Put some text on that button
+        quitButton.rect.x = 30
+        # Set the center position of the button
+        quitButton.rect.y = 550
+        # Offset it from the top a bit
+        quitButton.setCustomCallback(quit)
+        quitButton.setBackgroundColor((170,110, 110))
+        # button2.setBackgroundColor((160,128,128))
+        # Add the callback to the object
+        self.addSubView(quitButton, True)
+        # Add the object to the current View.
+
+
+

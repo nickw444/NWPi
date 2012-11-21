@@ -6,8 +6,8 @@
 ### http://www.nickwhyte.com/
 #####################################################################
 
-# Main UIButton Class. Made for subclassing for other buttons
-# Whole button is being drawn with code, no images in sight! Woo!
+# Simple class to return a sprite from a rectangle that is sent to it.
+
 import pygame
 from noticer import *
 from constants import *
@@ -15,5 +15,4 @@ from constants import *
 class spriteFromRect(pygame.sprite.Sprite):
 	def __init__(self, dimensions):                     # initialise method
         pygame.sprite.Sprite.__init__(self)
-        cont = constants()                              # Grab the constants
      
