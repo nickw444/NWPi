@@ -4,108 +4,60 @@
 		"selected_items":
 		[
 			[
-				"PLAYER",
-				"PLAYER2"
-			],
-			[
-				"ran",
-				"randomGaySquares"
+				"wi",
+				"winner"
 			],
 			[
 				"random",
-				"randomGaySquares"
+				"randomSquiggleSqaures"
 			],
 			[
-				"rand",
-				"randint"
-			],
-			[
-				"squa",
-				"square"
-			],
-			[
-				"sq",
-				"square"
-			],
-			[
-				"s",
-				"squares"
-			],
-			[
-				"setBack",
-				"setBackgroundImage"
-			],
-			[
-				"lis",
-				"listeningSubViews"
-			],
-			[
-				"can",
-				"canvas"
-			],
-			[
-				"cen",
-				"centery"
-			],
-			[
-				"ce",
-				"centery"
-			],
-			[
-				"cent",
-				"centerx"
+				"okay",
+				"okayAction"
 			],
 			[
 				"rese",
 				"resetBoard"
 			],
 			[
+				"PLAYER",
+				"PLAYER2"
+			],
+			[
+				"set",
+				"setOpacity"
+			],
+			[
 				"upda",
 				"updateView"
 			],
 			[
-				"col",
-				"colheight"
+				"bor",
+				"borderColor"
 			],
 			[
-				"colw",
-				"colwid"
+				"text",
+				"textobj"
 			],
 			[
-				"Ima",
-				"images"
+				"cent",
+				"centery"
+			],
+			[
+				"turn",
+				"turnIcon"
+			],
+			[
+				"lef",
+				"leftColView"
+			],
+			[
+				"setCol",
+				"setBackgroundColor"
 			],
 			[
 				"sub",
-				"subImageforsquare"
-			],
-			[
-				"set",
-				"setText"
-			],
-			[
-				"sh",
-				"sh2"
-			],
-			[
-				"manage",
-				"manageClickDown"
-			],
-			[
-				"cus",
-				"customInitial"
-			],
-			[
-				"co",
-				"coords"
-			],
-			[
-				"add",
-				"addSubView"
-			],
-			[
-				"vi",
-				"viewHeight"
+				"subView"
 			],
 			[
 				"within",
@@ -122,10 +74,6 @@
 			[
 				"borde",
 				"borders"
-			],
-			[
-				"bor",
-				"borderColor"
 			],
 			[
 				"call",
@@ -244,10 +192,6 @@
 				"text1pos	Default"
 			],
 			[
-				"text",
-				"textpos	Default"
-			],
-			[
 				"cente",
 				"centery	Default"
 			],
@@ -272,7 +216,15 @@
 				"centerx	Default"
 			],
 			[
+				"add",
+				"addSubView	Default"
+			],
+			[
 				"liste",
+				"listeningSubViews	Default"
+			],
+			[
+				"lis",
 				"listeningSubViews	Default"
 			],
 			[
@@ -476,8 +428,16 @@
 				"mysql_insert_id"
 			],
 			[
+				"ran",
+				"randomString"
+			],
+			[
 				"num",
 				"num_rows"
+			],
+			[
+				"rand",
+				"randomString"
 			],
 			[
 				"window",
@@ -514,19 +474,51 @@
 			[
 				"st",
 				"stion"
+			],
+			[
+				"row",
+				"rowsum"
+			],
+			[
+				"wp",
+				"wpBar"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			],
+			[
+				"attachment",
+				"attachmentTitle"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ani",
+				"aniLogo"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"read",
+				"ready	document ready - jQuery"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"wid",
+				"width"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "log.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/JSHint/JSHint.sublime-build",
 	"command_palette":
@@ -644,21 +636,31 @@
 	},
 	"file_history":
 	[
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/secondAlternativeView.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/mainGameViewController.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/Images.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/constants.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/fancyButton.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/homeViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/mainGameViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/instructionsViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/UIAlertView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/UIView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/UIButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/viewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/oldUIButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/spriteFromRect.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/textObject.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/noticer.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/navigationController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/README.md",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/AIGameViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/__init__.py",
+		"/Users/nickw/Documents/Repositories/NWPi/TestGame.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/homeViewController.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/__init__.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/constants.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/fancyButton.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/NWPi/Images.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/firstAlternativeView.py",
+		"/Users/nickw/Documents/Repositories/NWPi/UI/secondAlternativeView.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIButton.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/oldUIButton.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIView.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/UIAlertView.py",
-		"/Users/nickw/Desktop/org.chameleon.Boot.plist",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/__init__.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/viewController.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/firstAlternativeView.py",
-		"/Users/nickw/Documents/Repositories/NWPi/NWPi/README.md",
+		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/mainGameViewController.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/UI/NWPi/spriteFromRect.py",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/.gitignore",
 		"/Users/nickw/Documents/Repositories/NWPi/NWPi/project.sublime-project",
@@ -761,17 +763,7 @@
 		"/sites/80/listy/web/jquery.js",
 		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#4/config.php",
 		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#1/newItem.php",
-		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Assignment/Base/program.py",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#0/newItem.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#17/short.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#16/.htaccess",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#15/.htaccess",
-		"/sites/80/listy/l/.htaccess",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#14/toggleCheck.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#13/requests.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#12/registrations.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#11/public.php",
-		"/Users/nickw/Library/Caches/com.binarynights.ForkLift2/#10/newItem.php"
+		"/Users/nickw/Dropbox/School/2012/SDD/Term4/Assignment/Base/program.py"
 	],
 	"find":
 	{
@@ -791,11 +783,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"reset",
-			"turn",
+			"SquareCall",
 			"print",
-			"leftCol",
-			"i",
+			"Reset",
+			"addSubView",
 			"run",
 			"line too long",
 			"Images",
@@ -918,7 +909,8 @@
 			"ziplink",
 			"table",
 			"Root",
-			"info"
+			"info",
+			"Encode Explorer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -936,35 +928,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "log.txt",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

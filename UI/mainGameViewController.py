@@ -12,6 +12,7 @@ import random
 
 class mainGameViewController(NWPi.viewController):
     def checkThreeInARow(self):
+        # MEthod to check if a winner is present.
         self.updateTurnView()
         winner = False
         drawCounter = 0
@@ -27,6 +28,7 @@ class mainGameViewController(NWPi.viewController):
                                 if (i2 + 2) < len(self.squares[i]):
                                     if self.squares[i][i2 + 2].taken and (self.squares[i][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
                                         winner = self.squares[i][i2].occupiedBy
+                                        # Found a winnner, set the winner variable with the winner name
 
                         # # Check on the vertical plane
                         if (i + 1) < len(self.squares):
@@ -34,12 +36,15 @@ class mainGameViewController(NWPi.viewController):
                                 if (i + 2) < len(self.squares):
                                     if self.squares[i + 2][i2].taken and (self.squares[i + 2][i2].occupiedBy == self.squares[i][i2].occupiedBy):
                                         winner = self.squares[i][i2].occupiedBy
+                                        # Found a winnner, set the winner variable with the winner name
+
                         # Check on the diagonal down right plane
                         if ((i + 1) < len(self.squares)) and ((i2 + 1) < len(self.squares[i])):
                             if self.squares[i + 1][i2 + 1].taken and (self.squares[i + 1][i2 + 1].occupiedBy == self.squares[i][i2].occupiedBy):
                                 if ((i + 2) < len(self.squares)) and ((i2 + 2) < len(self.squares[i])):
                                     if self.squares[i + 2][i2 + 2].taken and (self.squares[i + 2][i2 + 2].occupiedBy == self.squares[i][i2].occupiedBy):
                                         winner = self.squares[i][i2].occupiedBy
+                                        # Found a winnner, set the winner variable with the winner name
 
                         # Check on the diagonal down left plane.
                         if ((i + 1) < len(self.squares)) and ((i2 - 1) >= 0):
@@ -47,11 +52,13 @@ class mainGameViewController(NWPi.viewController):
                                 if ((i + 2) < len(self.squares)) and ((i2 - 2) >= 0):
                                     if self.squares[i + 2][i2 - 2].taken and (self.squares[i + 2][i2 - 2].occupiedBy == self.squares[i][i2].occupiedBy):
                                         winner = self.squares[i][i2].occupiedBy
+                                        # Found a winnner, set the winner variable with the winner name
                     drawCounter += 1
                 i2 +=1
             i += 1
 
         if winner != False:
+            # IF a winner was found, show a UIAlertView and display the winning message
             bg = NWPi.UIView((self.get_rect().width, self.get_rect().height), self, (0,0,0))
             bg.setOpacity(128)
             alert = NWPi.UIAlertView((300, 90), self, (240,240,240), (2,2,2,2))
@@ -66,13 +73,15 @@ class mainGameViewController(NWPi.viewController):
 
             self.addSubView(bg)
             self.addSubView(alert)
+            # Make a callback on the UIView to be run on close - will reset the gameboard.
             def action(self, event, caller, withinBounds):
                 if event.type == pygame.MOUSEBUTTONUP:
                     self.parent.parent.resetBoard()
 
             alert.okayAction = action
 
-        if drawCounter >= len(self.squares) * len(self.squares[0]):
+        # A Winner wasn't found, instead, it's a draw
+        if drawCounter >= len(self.squares) * len(self.squares[0]) and winner == False:
             bg = NWPi.UIView((self.get_rect().width, self.get_rect().height), self, (0,0,0))
             bg.setOpacity(128)
             alert = NWPi.UIAlertView((300, 90), self, (240,240,240), (2,2,2,2))
