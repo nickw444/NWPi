@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # ViewController Class
 # One of the main classes in layout management.

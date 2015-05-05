@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # Global constants class. Will hold ALL changable data for the game
 # This file should be populated with game settings for reference later in ANY superclass.

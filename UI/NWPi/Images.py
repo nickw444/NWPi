@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # Basic image handling functions. These can be called globally.
 # Needed for easily importing images from the data folder.

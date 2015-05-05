@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # NavigationController Class
 # This is the topMost class on the view tree model.

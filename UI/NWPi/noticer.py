@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # Global logging and error management method.
 # Will be turning this on silent after final realease and only Fatal errors and errors will be shown in the console.

@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # Main UIView Class. Made for subclassing for other Views and ANY other object
 # This is probably the most heavily used class throughout the library, and still needs much work

@@ -1,10 +1,3 @@
-#####################################################################
-### Copyright Nick Whyte 2012
-### All Rights Reserved (c)
-### Distribution, Modification and Attribution Strictly Prohibited
-### Legal Action may be taken
-### http://www.nickwhyte.com/
-#####################################################################
 
 # UIAlertView Class, shows a simple and basic window to the user, and will disable any other views on the viewController whilst it is being shown.
 # Strictly, this should only be used on a viewController subclass or superclass. Unexpected results may be present if used on a UIView (well, until I subclass ViewController from UIView)
